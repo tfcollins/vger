@@ -385,7 +385,7 @@
         "Board": "m2k",
         "BoardProductPage": "https://analog.com/adalm2000",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/m2k",
-        "UserGuide": "/m2k",
+        "UserGuide": "https://wiki.analog.com/university/tools/m2k",
         "HDLDoc": "https://wiki.analog.com/resources/fpga/docs/hdl/m2k",
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers-all"
     },
