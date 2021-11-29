@@ -280,8 +280,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7768"
     },
     {
-        "Carrier": "https://xilinx.com/kc705",
-        "CarrierProductPage": "",
+        "Carrier": "kc705",
+        "CarrierProductPage": "https://xilinx.com/kc705",
         "Board": "ad9467_fmc",
         "BoardProductPage": "https://analog.com/eval-ad9467",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9467_fmc",
@@ -290,8 +290,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/kc705",
-        "CarrierProductPage": "",
+        "Carrier": "kc705",
+        "CarrierProductPage": "https://xilinx.com/kc705",
         "Board": "daq2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcdaq2-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/daq2",
@@ -300,8 +300,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/kc705",
-        "CarrierProductPage": "",
+        "Carrier": "kc705",
+        "CarrierProductPage": "https://xilinx.com/kc705",
         "Board": "fmcjesdadc1",
         "BoardProductPage": "https://analog.com/eval-ad-fmcjesdadc1-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcjesdadc1",
@@ -310,8 +310,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers-all"
     },
     {
-        "Carrier": "https://xilinx.com/kc705",
-        "CarrierProductPage": "",
+        "Carrier": "kc705",
+        "CarrierProductPage": "https://xilinx.com/kc705",
         "Board": "fmcomms2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms2",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms2",
@@ -320,8 +320,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
     },
     {
-        "Carrier": "https://xilinx.com/kcu105",
-        "CarrierProductPage": "",
+        "Carrier": "kcu105",
+        "CarrierProductPage": "https://xilinx.com/kcu105",
         "Board": "adrv9371x",
         "BoardProductPage": "https://analog.com/eval-adrv9371",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/adrv9371x",
@@ -330,8 +330,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9371"
     },
     {
-        "Carrier": "https://xilinx.com/kcu105",
-        "CarrierProductPage": "",
+        "Carrier": "kcu105",
+        "CarrierProductPage": "https://xilinx.com/kcu105",
         "Board": "daq2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcdaq2-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/daq2",
@@ -340,8 +340,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/kcu105",
-        "CarrierProductPage": "",
+        "Carrier": "kcu105",
+        "CarrierProductPage": "https://xilinx.com/kcu105",
         "Board": "daq3",
         "BoardProductPage": "https://analog.com/eval-fmcdaq3-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/daq3",
@@ -350,8 +350,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/kcu105",
-        "CarrierProductPage": "",
+        "Carrier": "kcu105",
+        "CarrierProductPage": "https://xilinx.com/kcu105",
         "Board": "fmcomms2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms2",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms2",
@@ -390,8 +390,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers-all"
     },
     {
-        "Carrier": "https://xilinx.com/vc707",
-        "CarrierProductPage": "",
+        "Carrier": "vc707",
+        "CarrierProductPage": "https://xilinx.com/vc707",
         "Board": "ad6676evb",
         "BoardProductPage": "https://analog.com/EVAL-AD6676",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad6676evb",
@@ -400,8 +400,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad6676"
     },
     {
-        "Carrier": "https://xilinx.com/vc707",
-        "CarrierProductPage": "",
+        "Carrier": "vc707",
+        "CarrierProductPage": "https://xilinx.com/vc707",
         "Board": "fmcadc2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcadc2-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcadc2",
@@ -410,8 +410,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/vc707",
-        "CarrierProductPage": "",
+        "Carrier": "vc707",
+        "CarrierProductPage": "https://xilinx.com/vc707",
         "Board": "fmcadc5",
         "BoardProductPage": "https://analog.com/ad-fmcadc5-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcadc5",
@@ -420,8 +420,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers-all"
     },
     {
-        "Carrier": "https://xilinx.com/vc707",
-        "CarrierProductPage": "",
+        "Carrier": "vc707",
+        "CarrierProductPage": "https://xilinx.com/vc707",
         "Board": "fmcjesdadc1",
         "BoardProductPage": "https://analog.com/eval-ad-fmcjesdadc1-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcjesdadc1",
@@ -430,8 +430,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers-all"
     },
     {
-        "Carrier": "https://xilinx.com/vc707",
-        "CarrierProductPage": "",
+        "Carrier": "vc707",
+        "CarrierProductPage": "https://xilinx.com/vc707",
         "Board": "fmcomms2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms2",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms2",
@@ -440,8 +440,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
     },
     {
-        "Carrier": "https://xilinx.com/vck190",
-        "CarrierProductPage": "",
+        "Carrier": "vck190",
+        "CarrierProductPage": "https://xilinx.com/vck190",
         "Board": "ad9081_fmca_ebz",
         "BoardProductPage": "https://analog.com/EVAL-AD9081",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9081_fmca_ebz",
@@ -450,8 +450,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
     },
     {
-        "Carrier": "https://xilinx.com/vcu118",
-        "CarrierProductPage": "",
+        "Carrier": "vcu118",
+        "CarrierProductPage": "https://xilinx.com/vcu118",
         "Board": "ad9081_fmca_ebz",
         "BoardProductPage": "https://analog.com/EVAL-AD9081",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9081_fmca_ebz",
@@ -460,8 +460,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
     },
     {
-        "Carrier": "https://xilinx.com/vcu118",
-        "CarrierProductPage": "",
+        "Carrier": "vcu118",
+        "CarrierProductPage": "https://xilinx.com/vcu118",
         "Board": "ad9082_fmca_ebz",
         "BoardProductPage": "https://analog.com/eval-ad9082",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9082_fmca_ebz",
@@ -470,8 +470,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
     },
     {
-        "Carrier": "https://xilinx.com/vcu118",
-        "CarrierProductPage": "",
+        "Carrier": "vcu118",
+        "CarrierProductPage": "https://xilinx.com/vcu118",
         "Board": "ad9208_dual_ebz",
         "BoardProductPage": "https://analog.com/eval-ad9208",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9208_dual_ebz",
@@ -480,8 +480,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad9208"
     },
     {
-        "Carrier": "https://xilinx.com/vcu118",
-        "CarrierProductPage": "",
+        "Carrier": "vcu118",
+        "CarrierProductPage": "https://xilinx.com/vcu118",
         "Board": "daq3",
         "BoardProductPage": "https://analog.com/eval-fmcdaq3-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/daq3",
@@ -490,8 +490,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zc702",
-        "CarrierProductPage": "",
+        "Carrier": "zc702",
+        "CarrierProductPage": "https://xilinx.com/zc702",
         "Board": "adv7511",
         "BoardProductPage": "https://analog.com/eval-adv7842",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/adv7511",
@@ -500,8 +500,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/drm/adv7511"
     },
     {
-        "Carrier": "https://xilinx.com/zc702",
-        "CarrierProductPage": "",
+        "Carrier": "zc702",
+        "CarrierProductPage": "https://xilinx.com/zc702",
         "Board": "fmcomms2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms2",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms2",
@@ -510,8 +510,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
     },
     {
-        "Carrier": "https://xilinx.com/zc702",
-        "CarrierProductPage": "",
+        "Carrier": "zc702",
+        "CarrierProductPage": "https://xilinx.com/zc702",
         "Board": "fmcomms5",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms5-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms5",
@@ -520,8 +520,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "ad6676evb",
         "BoardProductPage": "https://analog.com/EVAL-AD6676",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad6676evb",
@@ -530,8 +530,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad6676"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "ad7616_sdz",
         "BoardProductPage": "https://analog.com/EVAL-AD7616",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad7616_sdz",
@@ -540,8 +540,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7606"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "ad9081_fmca_ebz",
         "BoardProductPage": "https://analog.com/EVAL-AD9081",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9081_fmca_ebz",
@@ -550,8 +550,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "ad9082_fmca_ebz",
         "BoardProductPage": "https://analog.com/eval-ad9082",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9082_fmca_ebz",
@@ -560,8 +560,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "ad9265_fmc",
         "BoardProductPage": "https://analog.com/eval-ad9265",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9265_fmc",
@@ -570,8 +570,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "ad9434_fmc",
         "BoardProductPage": "https://analog.com/eval-ad9434",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9434_fmc",
@@ -580,8 +580,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "ad9739a_fmc",
         "BoardProductPage": "https://analog.com/eval-ad9739a",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9739a_fmc",
@@ -590,8 +590,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "ad_fmclidar1_ebz",
         "BoardProductPage": "https://analog.com/AD-FMCLIDAR1-EBZ",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad_fmclidar1_ebz",
@@ -600,8 +600,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/fpga/docs/axi_laser_driver"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "adrv9001",
         "BoardProductPage": "https://analog.com/eval-adrv9002",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/adrv9001",
@@ -610,8 +610,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9002"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "adrv9009",
         "BoardProductPage": "https://analog.com/eval-adrv9008-9009",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/adrv9009",
@@ -620,8 +620,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "adrv9371x",
         "BoardProductPage": "https://analog.com/eval-adrv9371",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/adrv9371x",
@@ -630,8 +630,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9371"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "adv7511",
         "BoardProductPage": "https://analog.com/eval-adv7842",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/adv7511",
@@ -640,8 +640,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/drm/adv7511"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "cn0506_mii",
         "BoardProductPage": "https://analog.com/cn0506",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/cn0506_mii",
@@ -650,8 +650,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "cn0506_rgmii",
         "BoardProductPage": "https://analog.com/cn0506",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/cn0506_rgmii",
@@ -660,8 +660,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "cn0506_rmii",
         "BoardProductPage": "https://analog.com/cn0506",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/cn0506_rmii",
@@ -670,9 +670,9 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
-        "Board": "dac_fmc_ebz  \\\\  https://analog.com/eval-AD9136",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
+        "Board": "dac_fmc_ebz",
         "BoardProductPage": "https://analog.com/eval-AD9135",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/dac_fmc_ebz",
         "UserGuide": "https://wiki.analog.com/resources/eval/user-guides/ad-dac-fmc-ebz",
@@ -680,8 +680,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "daq2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcdaq2-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/daq2",
@@ -690,8 +690,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "daq3",
         "BoardProductPage": "https://analog.com/eval-fmcdaq3-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/daq3",
@@ -700,8 +700,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "fmcadc2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcadc2-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcadc2",
@@ -710,8 +710,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "fmcjesdadc1",
         "BoardProductPage": "https://analog.com/eval-ad-fmcjesdadc1-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcjesdadc1",
@@ -720,8 +720,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers-all"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "fmcomms11",
         "BoardProductPage": "https://analog.com/ad-fmcomms11-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms11",
@@ -730,8 +730,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "fmcomms2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms2",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms2",
@@ -740,8 +740,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
     },
     {
-        "Carrier": "https://xilinx.com/zc706",
-        "CarrierProductPage": "",
+        "Carrier": "zc706",
+        "CarrierProductPage": "https://xilinx.com/zc706",
         "Board": "fmcomms5",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms5-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms5",
@@ -750,8 +750,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "ad9081_fmca_ebz",
         "BoardProductPage": "https://analog.com/EVAL-AD9081",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9081_fmca_ebz",
@@ -760,8 +760,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "ad9082_fmca_ebz",
         "BoardProductPage": "https://analog.com/eval-ad9082",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9082_fmca_ebz",
@@ -770,8 +770,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "ad9083_evb",
         "BoardProductPage": "https://analog.com/eval-ad9083",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9083_evb",
@@ -780,8 +780,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad9083"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "ad9656_fmc",
         "BoardProductPage": "https://analog.com/eval-ad9656",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad9656_fmc",
@@ -790,8 +790,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers-all"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "ad_fmclidar1_ebz",
         "BoardProductPage": "https://analog.com/AD-FMCLIDAR1-EBZ",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/ad_fmclidar1_ebz",
@@ -800,8 +800,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/fpga/docs/axi_laser_driver"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "adrv9001",
         "BoardProductPage": "https://analog.com/eval-adrv9002",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/adrv9001",
@@ -810,8 +810,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9002"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "adrv9009",
         "BoardProductPage": "https://analog.com/eval-adrv9008-9009",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/adrv9009",
@@ -820,8 +820,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "adrv9371x",
         "BoardProductPage": "https://analog.com/eval-adrv9371",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/adrv9371x",
@@ -830,8 +830,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9371"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "cn0506_mii",
         "BoardProductPage": "https://analog.com/cn0506",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/cn0506_mii",
@@ -840,8 +840,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "cn0506_rgmii",
         "BoardProductPage": "https://analog.com/cn0506",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/cn0506_rgmii",
@@ -850,8 +850,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "cn0506_rmii",
         "BoardProductPage": "https://analog.com/cn0506",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/cn0506_rmii",
@@ -860,8 +860,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "dac_fmc_ebz  \\\\  https://analog.com/eval-AD9136",
         "BoardProductPage": "https://analog.com/eval-AD9135",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/dac_fmc_ebz",
@@ -870,8 +870,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "daq2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcdaq2-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/daq2",
@@ -880,8 +880,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "daq3",
         "BoardProductPage": "https://analog.com/eval-fmcdaq3-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/daq3",
@@ -890,8 +890,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "fmcomms2",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms2",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms2",
@@ -900,8 +900,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "fmcomms5",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms5-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms5",
@@ -910,8 +910,8 @@
         "LinuxDriverDoc": "https://wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
     },
     {
-        "Carrier": "https://xilinx.com/zcu102",
-        "CarrierProductPage": "",
+        "Carrier": "zcu102",
+        "CarrierProductPage": "https://xilinx.com/zcu102",
         "Board": "fmcomms8",
         "BoardProductPage": "https://analog.com/eval-ad-fmcomms8-ebz",
         "HDLSource": "https://github.com/analogdevicesinc/hdl/tree/master/projects/fmcomms8",
