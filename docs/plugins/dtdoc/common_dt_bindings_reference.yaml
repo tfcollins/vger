@@ -1,0 +1,48 @@
+'#address-cells': {}
+'#size-cells': {}
+$nodename: {}
+compatible:
+  description: Compatible of the SPI device.
+cs-gpios:
+  description: 'GPIOs used as chip selects. If that property is used, the number of
+    chip selects will be increased automatically with max(cs-gpios, hardware chip
+    selects).  So if, for example, the controller has 4 CS lines, and the cs-gpios
+    looks like this   cs-gpios = <&gpio1 0 0>, <0>, <&gpio1 1 0>, <&gpio1 2 0>;  Then
+    it should be configured so that num_chipselect = 4, with the following mapping   cs0
+    : &gpio1 0 0   cs1 : native   cs2 : &gpio1 1 0   cs3 : &gpio1 2 0 '
+num-cs:
+  description: Total number of chip selects.
+  type: uint32
+reg:
+  description: Chip select used by the device.
+spi-3wire:
+  description: The device requires 3-wire mode.
+  type: flag
+spi-cpha:
+  description: The device requires shifted clock phase (CPHA) mode.
+  type: flag
+spi-cpol:
+  description: The device requires inverse clock polarity (CPOL) mode.
+  type: flag
+spi-cs-high:
+  description: The device requires the chip select active high.
+  type: flag
+spi-lsb-first:
+  description: The device requires the LSB first mode.
+  type: flag
+spi-max-frequency:
+  description: Maximum SPI clocking speed of the device in Hz.
+  type: uint32
+spi-rx-bus-width:
+  description: Bus width to the SPI bus used for read transfers.
+  type: uint32
+spi-rx-delay-us:
+  description: Delay, in microseconds, after a read transfer.
+spi-slave:
+  description: The SPI controller acts as a slave, instead of a master.
+  type: flag
+spi-tx-bus-width:
+  description: Bus width to the SPI bus used for write transfers.
+  type: uint32
+spi-tx-delay-us:
+  description: Delay, in microseconds, after a write transfer.
