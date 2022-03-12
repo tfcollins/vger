@@ -114,9 +114,8 @@ def default():
     loc = os.path.dirname(__file__)
     kernel_root_dir = os.path.abspath(os.path.join(loc, "../../linux"))
     target_dir = os.path.abspath(os.path.join(loc, "../source/linux/dt_bindings"))
-    # fns = generate_md_files(kernel_root_dir,target_dir)
+    fns = generate_md_files(kernel_root_dir,target_dir)
 
-    # target_dir = os.path.abspath(os.path.join(loc, "../source/linux/dt_bindings"))
     # create_md_index(fns, target_dir)
 
     build_common_dt_bindings_reference(kernel_root_dir, target_dir)
