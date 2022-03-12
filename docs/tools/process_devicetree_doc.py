@@ -72,6 +72,8 @@ def generate_md_files(kernel_root_dir, target_dir, stop_bad_yaml=False, limit_to
             filename = filename.replace(",", "_").replace("yaml", "md")
             filename = filename.upper()
             filename = filename.replace(".MD", ".md")
+            if not os.path.isdir(f"{target_dir}/devs"):
+                os.mkdir(f"{target_dir}/devs")
             with open(f"{target_dir}/devs/{filename}", "w") as f:
                 cmd = f"# {filename[:-3].split('_')[1]}"
                 cmd += "\n\n```{devicetree} "+f"{file}"
