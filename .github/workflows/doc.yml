@@ -8,18 +8,19 @@ jobs:
         python-version: ['3.8']
     name: Python ${{ matrix.python-version }}
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v1
-      with:
-        python-version: ${{ matrix.python-version }}
-        architecture: x64
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Build doc
         run: |
-         pip install -r requirements.txt
-         git clone --depth=1 https://github.com/analogdevicesinc/linux.git
-         cd docs/tools
-         python process_devicetree_doc.py
-         cd ../..
-         make -C docs html
+          pip install -r requirements.txt
+          git clone --depth=1 https://github.com/analogdevicesinc/linux.git
+          cd docs/tools
+          python process_devicetree_doc.py
+          cd ../..
+          make -C docs html
 
   deploy_dev:
     name: Deploy master docs
@@ -35,14 +36,14 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Build and doc
+      - name: Build doc
         run: |
-         pip install -r requirements.txt
-         git clone --depth=1 https://github.com/analogdevicesinc/linux.git
-         cd docs/tools
-         python process_devicetree_doc.py
-         cd ../..
-         make -C docs html
+          pip install -r requirements.txt
+          git clone --depth=1 https://github.com/analogdevicesinc/linux.git
+          cd docs/tools
+          python process_devicetree_doc.py
+          cd ../..
+          make -C docs html
 
       - name: Publish doc
         uses: peaceiris/actions-gh-pages@v3
