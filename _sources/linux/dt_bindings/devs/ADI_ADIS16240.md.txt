@@ -1,0 +1,4 @@
+# ADIS16240
+
+```{devicetree} /home/runner/work/vger/vger/linux/Documentation/devicetree/bindings/iio/accel/adi,adis16240.yaml
+```

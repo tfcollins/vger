@@ -1,0 +1,4 @@
+# LTC2308
+
+```{devicetree} /home/runner/work/vger/vger/linux/Documentation/devicetree/bindings/iio/adc/adi,ltc2308.yaml
+```

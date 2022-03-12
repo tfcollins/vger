@@ -1,0 +1,4 @@
+# LTC6952
+
+```{devicetree} /home/runner/work/vger/vger/linux/Documentation/devicetree/bindings/iio/frequency/adi,ltc6952.yaml
+```

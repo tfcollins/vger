@@ -1,0 +1,4 @@
+# AD9467
+
+```{devicetree} /home/runner/work/vger/vger/linux/Documentation/devicetree/bindings/iio/adc/adi,ad9467.yaml
+```

@@ -1,0 +1,4 @@
+# ADRF6780
+
+```{devicetree} /home/runner/work/vger/vger/linux/Documentation/devicetree/bindings/iio/frequency/adi,adrf6780.yaml
+```

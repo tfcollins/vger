@@ -1,0 +1,4 @@
+# ADAR300X
+
+```{devicetree} /home/runner/work/vger/vger/linux/Documentation/devicetree/bindings/iio/beamformer/adi,adar300x.yaml
+```

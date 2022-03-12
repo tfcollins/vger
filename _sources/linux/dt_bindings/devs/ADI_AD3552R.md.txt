@@ -1,0 +1,4 @@
+# AD3552R
+
+```{devicetree} /home/runner/work/vger/vger/linux/Documentation/devicetree/bindings/iio/dac/adi,ad3552r.yaml
+```

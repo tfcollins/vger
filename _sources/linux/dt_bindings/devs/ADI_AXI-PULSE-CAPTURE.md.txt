@@ -1,0 +1,4 @@
+# AXI-PULSE-CAPTURE
+
+```{devicetree} /home/runner/work/vger/vger/linux/Documentation/devicetree/bindings/iio/adc/adi,axi-pulse-capture.yaml
+```
