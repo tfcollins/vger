@@ -27,10 +27,10 @@ def build_common_dt_bindings_reference(kernel_root_dir, target_dir):
             props = data["properties"]
             for prop in props:
                 db[prop] = {}
-                if "$ref" in props[prop]:
+                if isinstance(props[prop],dict) and "$ref" in props[prop]:
                     ptype = props[prop]["$ref"].split("/")[-1]
                     db[prop] = {"type": ptype}
-                if "description" in props[prop]:
+                if isinstance(props[prop],dict) and "description" in props[prop]:
                     db[prop]["description"] = props[prop]["description"].replace("\n", " ")
         if "patternProperties" in data:
             for key in data["patternProperties"]:
