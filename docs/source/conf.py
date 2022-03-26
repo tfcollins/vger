@@ -45,7 +45,8 @@ extensions = [
     "sphinx_copybutton",
     "sphinx_design",
     "sphinx_inline_tabs",
-    "dtdoc"
+    "dtdoc",
+    "sphinx_substitution_extensions"
 ]
 
 
@@ -76,3 +77,11 @@ html_theme = 'furo'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# Shared variables
+rst_prolog = """
+.. |release_version| replace:: master
+.. |release_version_bold| replace:: **master**
+.. |vivado_version| replace:: 2021.1
+.. |linux_branch| replace:: master
+"""
