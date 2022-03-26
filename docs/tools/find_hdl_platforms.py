@@ -3,8 +3,6 @@ import os
 import glob
 from jinja2 import Environment, FileSystemLoader
 
-from cv2 import cartToPolar
-
 
 def find_all_dependent_ips(carrier_root_dir):
     deps = []
@@ -15,13 +13,6 @@ def find_all_dependent_ips(carrier_root_dir):
                 line = line.split("+=")[1].strip()
                 deps.append(line)
     return deps
-
-
-# Board Product Page
-# Parts : Integrated Dual RF Tx, Rx, and Observation Rx
-# Project Doc: https://wiki.analog.com/resources/eval/user-guides/adrv9009/quickstart
-# HDL Doc: https://wiki.analog.com/resources/eval/user-guides/adrv9009/reference_hdl
-# Linux Drivers: https://wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009
 
 
 def get_hdl_readme_info(carrier_root_dir):
