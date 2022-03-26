@@ -53,7 +53,6 @@ extensions = [
 d = os.path.dirname(__file__)
 s = os.path.split(d)
 s = os.path.split(s[0])
-print("HERERER",s)
 s = os.path.join(s[0],'linux','Documentation/devicetree/bindings')
 dt_bindings_include_path = s
 
@@ -77,6 +76,9 @@ html_theme = 'furo'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_css_files = [
+    'sdg_logo.css',
+]
 
 # Shared variables
 rst_prolog = """
