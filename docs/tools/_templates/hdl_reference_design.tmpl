@@ -1,0 +1,20 @@
+{% block content -%}
+# {{ project }} HDL Reference Design
+
+## Supported FPGA Carriers
+
+{% for carrier in platform -%}
+ - {{carrier}}
+{% endfor %}
+
+
+## Library Core Dependencies
+
+{% for carrier in platform -%}
+ - {{carrier}}
+{% for core in platform[carrier]['dependent_cores'] -%}
+     - {{core}}
+{% endfor %}
+{% endfor %}
+
+{%- endblock -%}

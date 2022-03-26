@@ -17,8 +17,10 @@ jobs:
         run: |
           pip install -r requirements.txt
           git clone --depth=1 https://github.com/analogdevicesinc/linux.git
+          git clone --depth=1 https://github.com/analogdevicesinc/hdl.git
           cd docs/tools
           python process_devicetree_doc.py
+          python find_hdl_platforms.py
           cd ../..
           make -C docs html
 
@@ -40,8 +42,10 @@ jobs:
         run: |
           pip install -r requirements.txt
           git clone --depth=1 https://github.com/analogdevicesinc/linux.git
+          git clone --depth=1 https://github.com/analogdevicesinc/hdl.git
           cd docs/tools
           python process_devicetree_doc.py
+          python find_hdl_platforms.py
           cd ../..
           make -C docs html
 

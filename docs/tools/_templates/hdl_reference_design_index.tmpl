@@ -1,0 +1,9 @@
+# HDL Reference Designs
+
+```{toctree}
+{% block content -%}
+{% for project in projects -%}
+reference_designs/{{ project }}
+{% endfor %}
+{%- endblock -%}
+```
