@@ -94,7 +94,7 @@ def generate_reference_design_pages():
     env = Environment(loader=file_loader)
 
     # Index Page
-    template = env.get_template("hd_reference_design_index.tmpl")
+    template = env.get_template("hdl_reference_design_index.tmpl")
     projects = sorted(hdl_details["platforms"].keys())
     output = template.render(projects=projects)
 
@@ -102,7 +102,7 @@ def generate_reference_design_pages():
         f.write(output)
 
     # Individual pages
-    template = env.get_template("hd_reference_design.tmpl")
+    template = env.get_template("hdl_reference_design.tmpl")
 
     for project in hdl_details["platforms"]:
         projectn = project.upper()
