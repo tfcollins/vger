@@ -1,0 +1,25 @@
+# ADAQ7980-SDZ HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zed
+
+
+
+## Library Core Dependencies
+
+- zed
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_i2s_adi
+- axi_pulse_gen
+- axi_spdif_tx
+- axi_sysid
+- spi_engine/axi_spi_engine
+- spi_engine/spi_engine_execution
+- spi_engine/spi_engine_interconnect
+- spi_engine/spi_engine_offload
+- sysid_rom
+- util_i2c_mixer
+

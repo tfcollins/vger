@@ -1,0 +1,19 @@
+# AD9434-FMC HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zc706
+
+
+
+## Library Core Dependencies
+
+- zc706
+- axi_ad9434
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+

@@ -1,0 +1,23 @@
+# FMCADC5 HDL Reference Design
+
+## Supported FPGA Carriers
+
+- vc707
+
+
+
+## Library Core Dependencies
+
+- vc707
+- axi_ad9625
+- axi_dmac
+- axi_fmcadc5_sync
+- axi_sysid
+- jesd204/axi_jesd204_rx
+- jesd204/jesd204_rx
+- sysid_rom
+- util_adcfifo
+- util_mfifo
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
+

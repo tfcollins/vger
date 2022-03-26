@@ -1,0 +1,30 @@
+# CN0363 HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zed
+
+
+
+## Library Core Dependencies
+
+- zed
+- axi_clkgen
+- axi_dmac
+- axi_generic_adc
+- axi_hdmi_tx
+- axi_i2s_adi
+- axi_spdif_tx
+- axi_sysid
+- cn0363/cn0363_dma_sequencer
+- cn0363/cn0363_phase_data_sync
+- cordic_demod
+- spi_engine/axi_spi_engine
+- spi_engine/spi_engine_execution
+- spi_engine/spi_engine_interconnect
+- spi_engine/spi_engine_offload
+- sysid_rom
+- util_axis_resize
+- util_i2c_mixer
+- util_sigma_delta_spi
+

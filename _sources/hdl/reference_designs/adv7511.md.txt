@@ -1,0 +1,38 @@
+# ADV7511 HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zc706
+- zed
+- zc702
+
+
+
+## Library Core Dependencies
+
+- zc706
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+
+- zed
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_i2s_adi
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+- util_i2c_mixer
+
+- zc702
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+

@@ -1,0 +1,28 @@
+# AD9467-FMC HDL Reference Design
+
+## Supported FPGA Carriers
+
+- kc705
+- zed
+
+
+
+## Library Core Dependencies
+
+- kc705
+- axi_ad9467
+- axi_dmac
+- axi_sysid
+- sysid_rom
+
+- zed
+- axi_ad9467
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_i2s_adi
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+- util_i2c_mixer
+

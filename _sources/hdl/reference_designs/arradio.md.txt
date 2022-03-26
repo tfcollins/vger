@@ -1,0 +1,20 @@
+# ARRADIO HDL Reference Design
+
+## Supported FPGA Carriers
+
+- c5soc
+
+
+
+## Library Core Dependencies
+
+- c5soc
+- axi_ad9361
+- axi_dmac
+- axi_sysid
+- sysid_rom
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- util_rfifo
+- util_wfifo
+

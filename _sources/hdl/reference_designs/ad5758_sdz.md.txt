@@ -1,0 +1,20 @@
+# AD5758-SDZ HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zed
+
+
+
+## Library Core Dependencies
+
+- zed
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_i2s_adi
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+- util_i2c_mixer
+

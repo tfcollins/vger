@@ -1,0 +1,36 @@
+# AD6676EVB HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zc706
+- vc707
+
+
+
+## Library Core Dependencies
+
+- zc706
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_spdif_tx
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/axi_jesd204_rx
+- jesd204/jesd204_rx
+- sysid_rom
+- util_pack/util_cpack2
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
+
+- vc707
+- axi_dmac
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/axi_jesd204_rx
+- jesd204/jesd204_rx
+- sysid_rom
+- util_pack/util_cpack2
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
+

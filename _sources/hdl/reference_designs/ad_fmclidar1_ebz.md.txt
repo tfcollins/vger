@@ -1,0 +1,48 @@
+# AD-FMCLIDAR1-EBZ HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zc706
+- a10soc
+- zcu102
+
+
+
+## Library Core Dependencies
+
+- zc706
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_laser_driver
+- axi_spdif_tx
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/axi_jesd204_rx
+- jesd204/jesd204_rx
+- sysid_rom
+- util_pack/util_cpack2
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
+
+- a10soc
+- axi_dmac
+- axi_laser_driver
+- axi_sysid
+- intel/adi_jesd204
+- jesd204/ad_ip_jesd204_tpl_adc
+- sysid_rom
+- util_pack/util_cpack2
+
+- zcu102
+- axi_dmac
+- axi_laser_driver
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/axi_jesd204_rx
+- jesd204/jesd204_rx
+- sysid_rom
+- util_pack/util_cpack2
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
+

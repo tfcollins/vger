@@ -1,0 +1,17 @@
+# AD9783-EBZ HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zcu102
+
+
+
+## Library Core Dependencies
+
+- zcu102
+- axi_ad9783
+- axi_dmac
+- axi_sysid
+- sysid_rom
+- util_pack/util_upack2
+

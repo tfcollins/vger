@@ -1,0 +1,27 @@
+# AD4630-FMC HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zed
+
+
+
+## Library Core Dependencies
+
+- zed
+- ad463x_data_capture
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_i2s_adi
+- axi_pwm_gen
+- axi_spdif_tx
+- axi_sysid
+- spi_engine/axi_spi_engine
+- spi_engine/spi_axis_reorder
+- spi_engine/spi_engine_execution
+- spi_engine/spi_engine_interconnect
+- spi_engine/spi_engine_offload
+- sysid_rom
+- util_i2c_mixer
+

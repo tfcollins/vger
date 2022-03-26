@@ -1,0 +1,21 @@
+# AD9083-EVB HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zcu102
+
+
+
+## Library Core Dependencies
+
+- zcu102
+- axi_dmac
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/axi_jesd204_rx
+- jesd204/jesd204_rx
+- sysid_rom
+- util_pack/util_cpack2
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
+

@@ -1,0 +1,37 @@
+# CN0506-RMII HDL Reference Design
+
+## Supported FPGA Carriers
+
+- zc706
+- zcu102
+- zed
+
+
+
+## Library Core Dependencies
+
+- zc706
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+- util_mii_to_rmii
+
+- zcu102
+- axi_sysid
+- sysid_rom
+- util_mii_to_rmii
+
+- zed
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_i2s_adi
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+- util_i2c_mixer
+- util_mii_to_rmii
+

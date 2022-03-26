@@ -1,0 +1,28 @@
+# AD-QUADMXFE1-EBZ HDL Reference Design
+
+## Supported FPGA Carriers
+
+- vcu118
+
+
+
+## Library Core Dependencies
+
+- vcu118
+- axi_dmac
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/ad_ip_jesd204_tpl_dac
+- jesd204/axi_jesd204_rx
+- jesd204/axi_jesd204_tx
+- jesd204/jesd204_rx
+- jesd204/jesd204_tx
+- sysid_rom
+- util_adcfifo
+- util_dacfifo
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- util_pad
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
+
