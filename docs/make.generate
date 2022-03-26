@@ -1,0 +1,15 @@
+
+
+init_linux:
+	echo "TEST123"
+    #git clone --depth=1 https://github.com/analogdevicesinc/linux.git
+
+init_linux build_dt_bindings:
+	cd tools ; \
+	python process_devicetree_doc.py ; \
+	cd ..
+
+init_linux build_dt_platform_references:
+	cd tools ; \
+	python find_platform_devicetrees.py ; \
+	cd ..

@@ -1,0 +1,14 @@
+{
+    "AD9081": {
+        "PlatformHeader": "dt-bindings/iio/adc/adi,ad9081.h",
+        "Architectures": [
+            "arm",
+            "arm64"
+        ],
+        "ExampleDTSFiles": [
+            "arch/arm64/boot/zynqmp-zcu102-rev10-ad9081.dts",
+            "arch/arm64/boot/dts/xilinx/zynqmp-zcu102-rev10-ad9081-m8-l4.dts",
+            "arch/arm64/boot/dts/xilinx/zynqmp-zcu102-rev10-ad9081-m8-l4-qpllrx.dts"
+        ]
+    }
+}
