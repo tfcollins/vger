@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Building Kernels" href="build.html" /><link rel="prev" title="Overview" href="../overview.html" />
 
     <meta name="generator" content="sphinx-4.4.0, furo 2022.03.04"/>
-        <title>Linux Drivers and Userspace Resources - Analog Devices, Inc. Prototyping Platform 2021.1 documentation</title>
+        <title>Linux drivers and user-space resources - Analog Devices, Inc. Prototyping Platform 2021.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=935aa2abcc5c1da4283d1dc201fb1f0add16d23a" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
@@ -160,8 +160,9 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Software</span></p>
 <ul class="current">
-<li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Linux Drivers and Userspace Resources</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Linux drivers and user-space resources</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="build.html">Building Kernels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="petalinux.html">PetaLinux</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="dt_bindings/index.html">DeviceTree Bindings</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3 has-children"><a class="reference internal" href="dt_bindings/device_tree_index.html">Device Bindings Index</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_AD5770R.html">AD5770R</a></li>
@@ -178,6 +179,7 @@
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADMV1013.html">ADMV1013</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADXL345.html">ADXL345</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADXL372.html">ADXL372</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADXL367.html">ADXL367</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADIS16240.html">ADIS16240</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADXL355.html">ADXL355</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADA4250.html">ADA4250</a></li>
@@ -250,10 +252,22 @@
           </label>
         </div>
         <article role="main">
-          <section id="linux-drivers-and-userspace-resources">
-<h1>Linux Drivers and Userspace Resources<a class="headerlink" href="#linux-drivers-and-userspace-resources" title="Permalink to this headline">#</a></h1>
-<p>Some <strong>text</strong>!</p>
+          <section id="linux-drivers-and-user-space-resources">
+<h1>Linux drivers and user-space resources<a class="headerlink" href="#linux-drivers-and-user-space-resources" title="Permalink to this headline">#</a></h1>
+<p>ADI maintains Linux drivers for a large number of components including ADCs, DACs, IMUs, accelerometers, transceivers, beamformers, and many others. Drivers are available from the <a class="reference external" href="https://github.com/analogdevicesinc/linux">Linux git repository</a>, which can be used as is (recommended) or merged into your own kernel. The ADI Kuiper Linux distribution uses this kernel by default provided by the <a class="reference external" href="https://wiki.analog.com/resources/tools-software/linux-software/embedded_arm_images">development SD cards</a>.</p>
+<p>The same Kuiper Linux SD card image can be used across all supported development kits such as: Xilinx FPGA or Intel FPGA development kits, and Raspberry Pi small board computers. It can be ported to other platforms from my leveraging existing devicetrees or creating custom ones for new boards.</p>
+<p>For new users to ADI component, it is always recommended to start with the Kuiper Linux when available.</p>
+<p>Linux resources:</p>
 <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="build.html">Building Kernels</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="build.html#installing-dependencies">Installing Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build.html#building-instructions">Building Instructions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="petalinux.html">PetaLinux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dt_bindings/index.html">DeviceTree Bindings</a></li>
+</ul>
 </div>
 </section>
 

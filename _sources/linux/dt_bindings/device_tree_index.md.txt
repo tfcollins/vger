@@ -15,6 +15,7 @@ devs/ADI_ADMV4420.md
 devs/ADI_ADMV1013.md
 devs/ADI_ADXL345.md
 devs/ADI_ADXL372.md
+devs/ADI_ADXL367.md
 devs/ADI_ADIS16240.md
 devs/ADI_ADXL355.md
 devs/ADI_ADA4250.md
