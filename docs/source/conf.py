@@ -13,6 +13,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../plugins/dtdoc'))
+sys.path.insert(0, os.path.abspath('../..'))
 
 
 # -- Project information -----------------------------------------------------
@@ -45,6 +46,7 @@ extensions = [
     "sphinx_copybutton",
     "sphinx_design",
     "sphinx_inline_tabs",
+    "sphinx_panels",
     "dtdoc",
     "sphinx_substitution_extensions"
 ]
@@ -71,6 +73,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'furo'
+# html_theme = "sphinx_book_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

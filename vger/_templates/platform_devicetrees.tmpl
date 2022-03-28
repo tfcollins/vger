@@ -1,0 +1,13 @@
+# DeviceTree Bindings
+
+Supported components
+
+{% block content -%}
+| DeviceTree | Boards | Chips |
+|------------|--------|-------|
+{% for platform in platforms -%}
+{% for dts in platforms[platform]['ExampleDTSFiles'] -%}
+| {{ dts }} |  {{ platform }} | Test |
+{% endfor %}
+{% endfor %}
+{%- endblock -%}

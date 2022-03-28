@@ -64,6 +64,20 @@ def fill_platform_json_with_dts_filenames(platform, filenames):
     with open(platforms_json, "w") as f:
         json.dump(platforms, f, indent=4)
 
+# def write_devicetree_table_to_file(platform, dts_list):
+#     loc = os.path.join(loc, "../source/linux/dt_bindings")
+
+#     file_loader = FileSystemLoader("_templates")
+#     env = Environment(loader=file_loader)
+
+#     # Index Page
+#     template = env.get_template("hdl_reference_design_index.tmpl")
+#     projects = sorted(hdl_details["platforms"].keys())
+#     output = template.render(projects=projects)
+
+#     with open(f"{iloc}/reference_design_index.md", "w") as f:
+#         f.write(output)
+
 
 def default():
     loc = os.path.dirname(__file__)

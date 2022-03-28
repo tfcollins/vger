@@ -8,6 +8,7 @@ from pprint import pprint
 
 db = {}
 
+
 def test_yaml(filename):
     try:
         with open(filename, "r") as stream:
@@ -16,9 +17,13 @@ def test_yaml(filename):
     except:
         return False
 
+
 def build_common_dt_bindings_reference(kernel_root_dir, target_dir):
     global db
-    files = ["Documentation/devicetree/bindings/spi/spi-controller.yaml","Documentation/devicetree/bindings/clock/fixed-clock.yaml"]
+    files = [
+        # "Documentation/devicetree/bindings/spi/spi-controller.yaml",
+        "Documentation/devicetree/bindings/clock/fixed-clock.yaml",
+    ]
     for file in files:
         with open(f"{kernel_root_dir}/{file}", "r") as stream:
             data = yaml.safe_load(stream)
@@ -27,11 +32,13 @@ def build_common_dt_bindings_reference(kernel_root_dir, target_dir):
             props = data["properties"]
             for prop in props:
                 db[prop] = {}
-                if isinstance(props[prop],dict) and "$ref" in props[prop]:
+                if isinstance(props[prop], dict) and "$ref" in props[prop]:
                     ptype = props[prop]["$ref"].split("/")[-1]
                     db[prop] = {"type": ptype}
-                if isinstance(props[prop],dict) and "description" in props[prop]:
-                    db[prop]["description"] = props[prop]["description"].replace("\n", " ")
+                if isinstance(props[prop], dict) and "description" in props[prop]:
+                    db[prop]["description"] = props[prop]["description"].replace(
+                        "\n", " "
+                    )
         if "patternProperties" in data:
             for key in data["patternProperties"]:
                 if "properties" in data["patternProperties"][key]:
@@ -41,12 +48,17 @@ def build_common_dt_bindings_reference(kernel_root_dir, target_dir):
                         if "$ref" in props[prop]:
                             ptype = props[prop]["$ref"].split("/")[-1]
                             db[prop] = {"type": ptype}
-                        db[prop]["description"] = props[prop]["description"].replace("\n", " ")
+                        db[prop]["description"] = props[prop]["description"].replace(
+                            "\n", " "
+                        )
     # pprint(db)
-    with open(os.path.join(target_dir,"common_dt_bindings_reference.yaml"), "w") as f:
+    with open(os.path.join(target_dir, "common_dt_bindings_reference.yaml"), "w") as f:
         yaml.dump(db, f)
 
-def generate_md_files(kernel_root_dir, target_dir, stop_bad_yaml=False, limit_to_adi=True):
+
+def generate_md_files(
+    kernel_root_dir, target_dir, stop_bad_yaml=False, limit_to_adi=True
+):
     """Generate MD files for all DT yaml files"""
 
     if not os.path.isdir(kernel_root_dir):
@@ -76,7 +88,7 @@ def generate_md_files(kernel_root_dir, target_dir, stop_bad_yaml=False, limit_to
                 os.mkdir(f"{target_dir}/devs")
             with open(f"{target_dir}/devs/{filename}", "w") as f:
                 cmd = f"# {filename[:-3].split('_')[1]}"
-                cmd += "\n\n```{devicetree} "+f"{file}"
+                cmd += "\n\n```{devicetree} " + f"{file}"
                 cmd += "\n```"
                 f.write(cmd)
             # print(filename)
@@ -98,6 +110,7 @@ def create_mkdocs_yml(filenames: list):
     with open("mkdocs.yml", "w") as f:
         f.write(output)
 
+
 def create_md_index(filenames: list, target_dir):
     """Gernerate mkdocs.yml file based on generated md files"""
 
@@ -116,7 +129,7 @@ def default():
     loc = os.path.dirname(__file__)
     kernel_root_dir = os.path.abspath(os.path.join(loc, "../../linux"))
     target_dir = os.path.abspath(os.path.join(loc, "../source/linux/dt_bindings"))
-    fns = generate_md_files(kernel_root_dir,target_dir)
+    fns = generate_md_files(kernel_root_dir, target_dir)
 
     create_md_index(fns, target_dir)
 

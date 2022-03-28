@@ -1,0 +1,2902 @@
+{
+    "platforms": {
+        "adrv9009": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9008-9009",
+                    "parts": "https//www.analog.com/adrv9009",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/axi_dacfifo",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9008-9009",
+                    "parts": "https//www.analog.com/adrv9009",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9008-9009",
+                    "parts": "https//www.analog.com/adrv9009",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            },
+            "a10gx": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9008-9009",
+                    "parts": "https//www.analog.com/adrv9009",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            },
+            "s10soc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9008-9009",
+                    "parts": "https//www.analog.com/adrv9009",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            }
+        },
+        "ad9082_fmca_ebz": {
+            "vcu118": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "axi_tdd",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "jesd204/jesd204_versal_gt_adapter_rx",
+                    "jesd204/jesd204_versal_gt_adapter_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_tdd_sync",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9082",
+                    "parts": "https//www.analog.com/ad9082",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz/ad9081_fmca_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
+                }
+            },
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "axi_tdd",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "jesd204/jesd204_versal_gt_adapter_rx",
+                    "jesd204/jesd204_versal_gt_adapter_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_tdd_sync",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9082",
+                    "parts": "https//www.analog.com/ad9082",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz/ad9081_fmca_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "axi_tdd",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "jesd204/jesd204_versal_gt_adapter_rx",
+                    "jesd204/jesd204_versal_gt_adapter_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_tdd_sync",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9082",
+                    "parts": "https//www.analog.com/ad9082",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz/ad9081_fmca_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
+                }
+            }
+        },
+        "ad738x_fmc": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom",
+                    "util_axis_upscale",
+                    "util_i2c_mixer",
+                    "util_pulse_gen"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad738xfmcz",
+                    "parts": "https//www.analog.com/ad7388",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad738x",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad738x",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad738x"
+                }
+            }
+        },
+        "imageon": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_rx",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_rx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "",
+                    "parts": "https//www.analog.com/adv7511",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/fmc-imageon",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/fmc-imageon",
+                    "drivers": "https//git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/media/i2c/adv7604.c"
+                }
+            }
+        },
+        "ad7405_fmc": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_dec256sinc24b",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad7405",
+                    "parts": "https//www.analog.com/adum7701",
+                    "pdoc": "",
+                    "hdoc": "",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "ad6676evb": {
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD6676",
+                    "parts": "https//www.analog.com/ad6676",
+                    "pdoc": "https//wiki.analog.com/resources/eval/ad6676-wideband_rx_subsystem_ad6676ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad6676-ebz/software/baremetal",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad6676"
+                }
+            },
+            "vc707": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD6676",
+                    "parts": "https//www.analog.com/ad6676",
+                    "pdoc": "https//wiki.analog.com/resources/eval/ad6676-wideband_rx_subsystem_ad6676ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad6676-ebz/software/baremetal",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad6676"
+                }
+            }
+        },
+        "ad4630_fmc": {
+            "zed": {
+                "dependent_cores": [
+                    "ad463x_data_capture",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_pwm_gen",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_axis_reorder",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "",
+                    "parts": "https//www.analog.com/ad4630-24",
+                    "pdoc": "https//wiki.analog.com/resources/eval/ad4630-24-eval-board",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad463x/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/uc-drivers/ad463x"
+                }
+            }
+        },
+        "pulsar_adc_pmdz": {
+            "coraz7s": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_pwm_gen",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad400x-fmcz",
+                    "parts": "https//www.analog.com/ad7690",
+                    "pdoc": "https//wiki.analog.com/resources/eval/10-lead-pulsar-adc-evaluation-board",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/pulsar_adc_pmods_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7476a"
+                }
+            }
+        },
+        "ad77681evb": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad7768-1",
+                    "parts": "https//www.analog.com/ad7768-1",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad7768-1",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad7768-1",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7768-1"
+                }
+            }
+        },
+        "adrv9009zu11eg": {
+            "adrv2crr_fmcomms8": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_fan_control",
+                    "axi_i2s_adi",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/axi_dacfifo",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adrv9009-zu11eg",
+                    "parts": "https//www.analog.com/adrv9009",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009-zu11eg",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009-zu11eg/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            },
+            "adrv2crr_fmcxmwbr1": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_fan_control",
+                    "axi_i2s_adi",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/axi_dacfifo",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adrv9009-zu11eg",
+                    "parts": "https//www.analog.com/adrv9009",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009-zu11eg",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009-zu11eg/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            },
+            "adrv2crr_xmicrowave": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_fan_control",
+                    "axi_i2s_adi",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/axi_dacfifo",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adrv9009-zu11eg",
+                    "parts": "https//www.analog.com/adrv9009",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009-zu11eg",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009-zu11eg/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            },
+            "adrv2crr_fmc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_fan_control",
+                    "axi_i2s_adi",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/axi_dacfifo",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adrv9009-zu11eg",
+                    "parts": "https//www.analog.com/adrv9009",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009-zu11eg",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9009-zu11eg/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            }
+        },
+        "adrv9001": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_adrv9001",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9002",
+                    "parts": "https//www.analog.com/adrv9002",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9002/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9002/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9002"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_adrv9001",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9002",
+                    "parts": "https//www.analog.com/adrv9002",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9002/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9002/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9002"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_adrv9001",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_wfifo"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9002",
+                    "parts": "https//www.analog.com/adrv9002",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9002/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9002/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9002"
+                }
+            },
+            "zed": {
+                "dependent_cores": [
+                    "axi_adrv9001",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9002",
+                    "parts": "https//www.analog.com/adrv9002",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9002/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9002/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9002"
+                }
+            }
+        },
+        "ad_quadmxfe1_ebz": {
+            "vcu118": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_pad",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/quad-mxfe",
+                    "parts": "https//www.analog.com/ad9082",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/quadmxfe",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad_quadmxfe1_ebz/ad_quadmxfe1_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/quadmxfe/quick-start"
+                }
+            }
+        },
+        "ad9783_ebz": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_ad9783",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9783",
+                    "parts": "https//www.analog.com/ad9783",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/interposer/ad9783",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/interposer/ad9783",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "fmcomms8": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms8-ebz",
+                    "parts": "https//www.analog.com/hmc7044",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms8-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms8-ebz/quickstart/a10soc",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms8-ebz",
+                    "parts": "https//www.analog.com/hmc7044",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms8-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms8-ebz/quickstart/a10soc",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9009"
+                }
+            }
+        },
+        "ad9656_fmc": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9656",
+                    "parts": "https//www.analog.com/ad9656",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9656/software/baremetal",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9656/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "pluto_ng": {
+            "null": {
+                "dependent_cores": [
+                    "axi_adrv9001",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adalm-pluto_ng",
+                    "parts": "https//www.analog.com/adrv9002",
+                    "pdoc": "https//wiki.analog.com/university/tools/pluto_ng",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9002/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/adrv9002"
+                }
+            }
+        },
+        "fmcadc5": {
+            "vc707": {
+                "dependent_cores": [
+                    "axi_ad9625",
+                    "axi_dmac",
+                    "axi_fmcadc5_sync",
+                    "axi_sysid",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_mfifo",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/ad-fmcadc5-ebz",
+                    "parts": "https//www.analog.com/ad9625",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcadc5-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcadc5-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "ad5758_sdz": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD5758",
+                    "parts": "https//www.analog.com/ad5758",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad5758",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad5758",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dac/ad5758"
+                }
+            }
+        },
+        "ad9208_dual_ebz": {
+            "vcu118": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9208",
+                    "parts": "https//www.analog.com/ad9208",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9208_dual_ebz/quickstart/vcu118",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9208_dual_ebz/ad9208_dual_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad9208"
+                }
+            }
+        },
+        "ad9213_dual_ebz": {
+            "s10soc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc"
+                ],
+                "hdl_info": {
+                    "board": "",
+                    "parts": "https//www.analog.com/ad9213",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9213_dual_ebz/",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9213_dual_ebz/ad9213_dual_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "cn0363": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_generic_adc",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "cn0363/cn0363_dma_sequencer",
+                    "cn0363/cn0363_phase_data_sync",
+                    "cordic_demod",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom",
+                    "util_axis_resize",
+                    "util_i2c_mixer",
+                    "util_sigma_delta_spi"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/CN0363",
+                    "parts": "https//www.analog.com/AD7175-2",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/eval-cn0363-pmdz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/eval-cn0363-pmdz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/eval-cn0363-pmdz/software/linux/drivers"
+                }
+            }
+        },
+        "fmcadc2": {
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "xilinx/axi_adcfifo",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcadc2-ebz",
+                    "parts": "https//www.analog.com/ad9625",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcadc2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcadc2-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
+                }
+            },
+            "vc707": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcadc2-ebz",
+                    "parts": "https//www.analog.com/ad9625",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcadc2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcadc2-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
+                }
+            }
+        },
+        "ad7616_sdz": {
+            "zc706": {
+                "dependent_cores": [
+                    "axi_ad7616",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD7616",
+                    "parts": "https//www.analog.com/ad7616",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad7616-sdz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad7616-sdz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7606"
+                }
+            },
+            "zed": {
+                "dependent_cores": [
+                    "axi_ad7616",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD7616",
+                    "parts": "https//www.analog.com/ad7616",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad7616-sdz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad7616-sdz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7606"
+                }
+            }
+        },
+        "ad9467_fmc": {
+            "kc705": {
+                "dependent_cores": [
+                    "axi_ad9467",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9467",
+                    "parts": "https//www.analog.com/ad9467",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9467",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9467",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
+                }
+            },
+            "zed": {
+                "dependent_cores": [
+                    "axi_ad9467",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9467",
+                    "parts": "https//www.analog.com/ad9467",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9467",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9467",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
+                }
+            }
+        },
+        "dac_fmc_ebz": {
+            "vcu118": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-AD9172",
+                    "parts": "https//www.analog.com/AD9176",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-dac-fmc-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-dac-fmc-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-AD9172",
+                    "parts": "https//www.analog.com/AD9176",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-dac-fmc-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-dac-fmc-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-AD9172",
+                    "parts": "https//www.analog.com/AD9176",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-dac-fmc-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-dac-fmc-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-AD9172",
+                    "parts": "https//www.analog.com/AD9176",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-dac-fmc-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-dac-fmc-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            }
+        },
+        "daq3": {
+            "vcu118": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-fmcdaq3-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-fmcdaq3-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adcfifo",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-fmcdaq3-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "kcu105": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-fmcdaq3-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "a10gx": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-fmcdaq3-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq3-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            }
+        },
+        "arradio": {
+            "c5soc": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_wfifo"
+                ],
+                "hdl_info": {
+                    "board": "https//www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=65&No=946",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/arradio",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            }
+        },
+        "fmcomms11": {
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adcfifo",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/ad-fmcomms11-ebz",
+                    "parts": "https//www.analog.com/ad9162",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms11-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms11-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            }
+        },
+        "ad7134_fmc": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_pwm_gen",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad7134fmcz",
+                    "parts": "https//www.analog.com/ad4134",
+                    "pdoc": "",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad713x/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "ad9083_evb": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9083",
+                    "parts": "https//www.analog.com/ad9083",
+                    "pdoc": "https//wiki.analog.com/resources/eval/ad9083",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9083/ad9083_evb_reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad9083"
+                }
+            }
+        },
+        "daq2": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcdaq2-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcdaq2-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcdaq2-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "kcu105": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcdaq2-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "kc705": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcdaq2-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            },
+            "a10gx": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcdaq2-ebz",
+                    "parts": "https//www.analog.com/ad9680",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcdaq2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            }
+        },
+        "pluto": {
+            "null": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adalm-pluto",
+                    "parts": "https//www.analog.com/ad9363",
+                    "pdoc": "https//wiki.analog.com/university/tools/pluto",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            }
+        },
+        "cn0506_rmii": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_mii_to_rmii"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/adin1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_mii_to_rmii"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/adin1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            },
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer",
+                    "util_mii_to_rmii"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/adin1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            }
+        },
+        "cn0506_rgmii": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/ADIN1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/ADIN1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/ADIN1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            },
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/ADIN1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            }
+        },
+        "adrv9361z7035": {
+            "ccfmc_lvds": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_gpreg",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/axi_xcvrlb",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/ADRV9361-Z7035",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv936x_rfsom",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            },
+            "ccbob_cmos": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_gpreg",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/axi_xcvrlb",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/ADRV9361-Z7035",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv936x_rfsom",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            },
+            "ccbob_lvds": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_gpreg",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/axi_xcvrlb",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/ADRV9361-Z7035",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv936x_rfsom",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            },
+            "ccpackrf_lvds": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_i2s_adi",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/ADRV9361-Z7035",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv936x_rfsom",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            }
+        },
+        "cn0501": {
+            "coraz7s": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_generic_adc",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0501",
+                    "parts": "",
+                    "pdoc": "",
+                    "hdoc": "",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "ad5766_sdz": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_ad5766",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD5766",
+                    "parts": "https//www.analog.com/ad5766",
+                    "pdoc": "",
+                    "hdoc": "",
+                    "drivers": "https//git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/iio/dac/ad5766.c"
+                }
+            }
+        },
+        "sidekiqz2": {
+            "null": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//epiqsolutions.com/rf-transceiver/sidekiq-z2/",
+                    "parts": "https//www.analog.com/ad9364",
+                    "pdoc": "https//wiki.analog.com/university/tools/pluto",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            }
+        },
+        "m2k": {
+            "standalone": {
+                "dependent_cores": [
+                    "axi_ad9963",
+                    "axi_adc_decimate",
+                    "axi_adc_trigger",
+                    "axi_dac_interpolate",
+                    "axi_dmac",
+                    "axi_logic_analyzer",
+                    "axi_rd_wr_combiner",
+                    "util_var_fifo"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adalm2000",
+                    "parts": "https//www.analog.com/AD9963",
+                    "pdoc": "https//wiki.analog.com/m2k",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/docs/hdl/m2k",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "adaq7980_sdz": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_pulse_gen",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adaq7980",
+                    "parts": "https//www.analog.com/adaq7988",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adaq7980-sdz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/adaq7980-sdz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "fmcjesdadc1": {
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcjesdadc1-ebz",
+                    "parts": "https//www.analog.com/AD9517-1",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcjesdadc1-ebz/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcjesdadc1-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            },
+            "kc705": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcjesdadc1-ebz",
+                    "parts": "https//www.analog.com/AD9517-1",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcjesdadc1-ebz/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcjesdadc1-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            },
+            "vc707": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcjesdadc1-ebz",
+                    "parts": "https//www.analog.com/AD9517-1",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcjesdadc1-ebz/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad-fmcjesdadc1-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "fmcomms5": {
+            "zc702": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms5-ebz",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms5-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms5-ebz/hardware",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            },
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms5-ebz",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms5-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms5-ebz/hardware",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms5-ebz",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms5-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms5-ebz/hardware",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            }
+        },
+        "cn0506_mii": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/ADIN1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/ADIN1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/ADIN1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            },
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0506",
+                    "parts": "https//www.analog.com/ADIN1300",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0506/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/net-phy/adin"
+                }
+            }
+        },
+        "adv7511": {
+            "zc702": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adv7842",
+                    "parts": "https//www.analog.com/adv7511",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/kc705/adv7511",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/kc705/adv7511",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/drm/adv7511"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adv7842",
+                    "parts": "https//www.analog.com/adv7511",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/kc705/adv7511",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/kc705/adv7511",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/drm/adv7511"
+                }
+            },
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adv7842",
+                    "parts": "https//www.analog.com/adv7511",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/kc705/adv7511",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/kc705/adv7511",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/drm/adv7511"
+                }
+            }
+        },
+        "cn0540": {
+            "de10nano": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0540",
+                    "parts": "https//www.analog.com/ltc2606",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0540",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0540/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7768"
+                }
+            },
+            "coraz7s": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/cn0540",
+                    "parts": "https//www.analog.com/ltc2606",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0540",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/circuits-from-the-lab/cn0540/hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7768"
+                }
+            }
+        },
+        "ad9081_fmca_ebz": {
+            "vck190": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "axi_tdd",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "jesd204/jesd204_versal_gt_adapter_rx",
+                    "jesd204/jesd204_versal_gt_adapter_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_tdd_sync",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD9081",
+                    "parts": "https//www.analog.com/AD9081",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz/ad9081_fmca_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
+                }
+            },
+            "vcu118": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "axi_tdd",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "jesd204/jesd204_versal_gt_adapter_rx",
+                    "jesd204/jesd204_versal_gt_adapter_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_tdd_sync",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD9081",
+                    "parts": "https//www.analog.com/AD9081",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz/ad9081_fmca_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
+                }
+            },
+            "vcu128": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "axi_tdd",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "jesd204/jesd204_versal_gt_adapter_rx",
+                    "jesd204/jesd204_versal_gt_adapter_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_tdd_sync",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD9081",
+                    "parts": "https//www.analog.com/AD9081",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz/ad9081_fmca_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
+                }
+            },
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "axi_tdd",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "jesd204/jesd204_versal_gt_adapter_rx",
+                    "jesd204/jesd204_versal_gt_adapter_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_tdd_sync",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD9081",
+                    "parts": "https//www.analog.com/AD9081",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz/ad9081_fmca_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "axi_tdd",
+                    "data_offload",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "jesd204/jesd204_versal_gt_adapter_rx",
+                    "jesd204/jesd204_versal_gt_adapter_tx",
+                    "sysid_rom",
+                    "util_adcfifo",
+                    "util_dacfifo",
+                    "util_fifo2axi_bridge",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_tdd_sync",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD9081",
+                    "parts": "https//www.analog.com/AD9081",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz/ad9081_fmca_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD9081",
+                    "parts": "https//www.analog.com/AD9081",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad9081_fmca_ebz/ad9081_fmca_ebz_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-mxfe/ad9081"
+                }
+            }
+        },
+        "adrv9371x": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9371",
+                    "parts": "https//www.analog.com/ad9371",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9371"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/axi_dacfifo",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9371",
+                    "parts": "https//www.analog.com/ad9371",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9371"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9371",
+                    "parts": "https//www.analog.com/ad9371",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9371"
+                }
+            },
+            "kcu105": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/axi_jesd204_tx",
+                    "jesd204/jesd204_rx",
+                    "jesd204/jesd204_tx",
+                    "sysid_rom",
+                    "util_dacfifo",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9371",
+                    "parts": "https//www.analog.com/ad9371",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9371"
+                }
+            },
+            "a10gx": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/ad_ip_jesd204_tpl_dac",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-adrv9371",
+                    "parts": "https//www.analog.com/ad9371",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/quickstart",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/mykonos/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9371"
+                }
+            }
+        },
+        "ad7768evb": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_generic_adc",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer",
+                    "util_pack/util_cpack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/EVAL-AD7768",
+                    "parts": "https//www.analog.com/ad7768",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad7768-ebz/software/baremetal",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad7768-ebz/software/baremetal",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad7768"
+                }
+            }
+        },
+        "ad_fmclidar1_ebz": {
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_laser_driver",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/AD-FMCLIDAR1-EBZ",
+                    "parts": "",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmclidar1-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/docs/hdl",
+                    "drivers": "https//wiki.analog.com/resources/fpga/docs/axi_laser_driver"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_laser_driver",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "jesd204/axi_jesd204_rx",
+                    "jesd204/jesd204_rx",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "xilinx/axi_adxcvr",
+                    "xilinx/util_adxcvr"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/AD-FMCLIDAR1-EBZ",
+                    "parts": "",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmclidar1-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/docs/hdl",
+                    "drivers": "https//wiki.analog.com/resources/fpga/docs/axi_laser_driver"
+                }
+            },
+            "a10soc": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_laser_driver",
+                    "axi_sysid",
+                    "intel/adi_jesd204",
+                    "jesd204/ad_ip_jesd204_tpl_adc",
+                    "sysid_rom",
+                    "util_pack/util_cpack2"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/AD-FMCLIDAR1-EBZ",
+                    "parts": "",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmclidar1-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/docs/hdl",
+                    "drivers": "https//wiki.analog.com/resources/fpga/docs/axi_laser_driver"
+                }
+            }
+        },
+        "adrv9364z7020": {
+            "ccbob_cmos": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_gpreg",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adrv9364-z7020",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9364-z7020",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms4-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            },
+            "ccbob_lvds": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_gpreg",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adrv9364-z7020",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9364-z7020",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms4-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            },
+            "ccpackrf_lvds": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_i2s_adi",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/adrv9364-z7020",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/adrv9364-z7020",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms4-ebz",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            }
+        },
+        "ad9265_fmc": {
+            "zc706": {
+                "dependent_cores": [
+                    "axi_ad9265",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9265",
+                    "parts": "https//www.analog.com/ad9265",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9265",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9265",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
+                }
+            }
+        },
+        "ad9739a_fmc": {
+            "zc706": {
+                "dependent_cores": [
+                    "axi_ad9739a",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9739a",
+                    "parts": "https//www.analog.com/ad9737a",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9739a",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9739a",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-dds/axi-dac-dds-hdl"
+                }
+            }
+        },
+        "ad469x_fmc": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_pulse_gen",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom",
+                    "util_i2c_mixer"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad4696",
+                    "parts": "https//www.analog.com/ad4696",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad469x",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad469x",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers-all"
+                }
+            }
+        },
+        "ad40xx_fmc": {
+            "zed": {
+                "dependent_cores": [
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "spi_engine/axi_spi_engine",
+                    "spi_engine/spi_engine_execution",
+                    "spi_engine/spi_engine_interconnect",
+                    "spi_engine/spi_engine_offload",
+                    "sysid_rom",
+                    "util_i2c_mixer",
+                    "util_pulse_gen"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad400x-fmcz",
+                    "parts": "https//www.analog.com/ad4020",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad400x",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad400x",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad400x"
+                }
+            }
+        },
+        "usrpe31x": {
+            "null": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_tdd_sync"
+                ],
+                "hdl_info": {
+                    "board": "https//www.ettus.com/all-products/e310",
+                    "parts": "https//www.analog.com/ad9363",
+                    "pdoc": "",
+                    "hdoc": "",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-transceiver/ad9361"
+                }
+            }
+        },
+        "fmcomms2": {
+            "zc702": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms2",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            },
+            "zcu102": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms2",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            },
+            "zc706": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms2",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            },
+            "kcu105": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms2",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            },
+            "kc705": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms2",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            },
+            "vc707": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_dmac",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms2",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            },
+            "zed": {
+                "dependent_cores": [
+                    "axi_ad9361",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_i2s_adi",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom",
+                    "util_i2c_mixer",
+                    "util_pack/util_cpack2",
+                    "util_pack/util_upack2",
+                    "util_rfifo",
+                    "util_tdd_sync",
+                    "util_wfifo",
+                    "xilinx/util_clkdiv"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad-fmcomms2",
+                    "parts": "https//www.analog.com/ad9361",
+                    "pdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz",
+                    "hdoc": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/reference_hdl",
+                    "drivers": "https//wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz/software/linux"
+                }
+            }
+        },
+        "adv7513": {
+            "de10nano": {
+                "dependent_cores": [
+                    "axi_dmac",
+                    "axi_hdmi_tx"
+                ],
+                "hdl_info": {
+                    "board": "",
+                    "parts": "https//www.analog.com/adv7513",
+                    "pdoc": "",
+                    "hdoc": "",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/drm/adv7511"
+                }
+            }
+        },
+        "ad9434_fmc": {
+            "zc706": {
+                "dependent_cores": [
+                    "axi_ad9434",
+                    "axi_clkgen",
+                    "axi_dmac",
+                    "axi_hdmi_tx",
+                    "axi_spdif_tx",
+                    "axi_sysid",
+                    "sysid_rom"
+                ],
+                "hdl_info": {
+                    "board": "https//www.analog.com/eval-ad9434",
+                    "parts": "https//www.analog.com/ad9434",
+                    "pdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9434",
+                    "hdoc": "https//wiki.analog.com/resources/fpga/xilinx/fmc/ad9434",
+                    "drivers": "https//wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/axi-adc-hdl"
+                }
+            }
+        }
+    },
+    "library": [
+        "axi_clkgen",
+        "axi_dmac",
+        "axi_sysid",
+        "jesd204/ad_ip_jesd204_tpl_adc",
+        "jesd204/ad_ip_jesd204_tpl_dac",
+        "jesd204/axi_jesd204_rx",
+        "jesd204/axi_jesd204_tx",
+        "jesd204/jesd204_rx",
+        "jesd204/jesd204_tx",
+        "sysid_rom",
+        "util_dacfifo",
+        "util_pack/util_cpack2",
+        "util_pack/util_upack2",
+        "xilinx/axi_adxcvr",
+        "xilinx/util_adxcvr",
+        "axi_hdmi_tx",
+        "axi_spdif_tx",
+        "xilinx/axi_dacfifo",
+        "intel/adi_jesd204",
+        "axi_tdd",
+        "data_offload",
+        "jesd204/jesd204_versal_gt_adapter_rx",
+        "jesd204/jesd204_versal_gt_adapter_tx",
+        "util_adcfifo",
+        "util_fifo2axi_bridge",
+        "util_tdd_sync",
+        "axi_i2s_adi",
+        "spi_engine/axi_spi_engine",
+        "spi_engine/spi_engine_execution",
+        "spi_engine/spi_engine_interconnect",
+        "spi_engine/spi_engine_offload",
+        "util_axis_upscale",
+        "util_i2c_mixer",
+        "util_pulse_gen",
+        "axi_hdmi_rx",
+        "axi_spdif_rx",
+        "util_dec256sinc24b",
+        "ad463x_data_capture",
+        "axi_pwm_gen",
+        "spi_engine/spi_axis_reorder",
+        "axi_fan_control",
+        "axi_adrv9001",
+        "util_rfifo",
+        "util_wfifo",
+        "util_pad",
+        "axi_ad9783",
+        "axi_ad9625",
+        "axi_fmcadc5_sync",
+        "util_mfifo",
+        "axi_generic_adc",
+        "cn0363/cn0363_dma_sequencer",
+        "cn0363/cn0363_phase_data_sync",
+        "cordic_demod",
+        "util_axis_resize",
+        "util_sigma_delta_spi",
+        "xilinx/axi_adcfifo",
+        "axi_ad7616",
+        "axi_ad9467",
+        "axi_ad9361",
+        "util_mii_to_rmii",
+        "axi_gpreg",
+        "xilinx/axi_xcvrlb",
+        "xilinx/util_clkdiv",
+        "axi_ad5766",
+        "axi_ad9963",
+        "axi_adc_decimate",
+        "axi_adc_trigger",
+        "axi_dac_interpolate",
+        "axi_logic_analyzer",
+        "axi_rd_wr_combiner",
+        "util_var_fifo",
+        "axi_pulse_gen",
+        "axi_laser_driver",
+        "axi_ad9265",
+        "axi_ad9739a",
+        "axi_ad9434"
+    ]
+}
