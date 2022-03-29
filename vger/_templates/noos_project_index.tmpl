@@ -1,0 +1,28 @@
+# No-OS Projects Index All
+
+No-OS is written and tested on various Xilinx, Intel, Arduino, and Raspberry Pi boards but the drivers and projects can be considered generic. Therefore, they can be easily ported to many other platforms.
+
+| No-OS Project | Carrier Vendor | Supported Platforms |
+|:-------------:|------|---------------------|
+{% block content -%}
+{% for project in projects -%}
+{% set loop2 = loop -%}
+{% for platform in projects[project] -%}
+{% set loop1 = loop -%}
+{% for target in projects[project][platform] -%}
+{% set loop0 = loop -%}
+{% for hardware in projects[project][platform][target]['hardware'] -%}
+
+{% if   loop.index == 1 and loop0.index == 1 and loop1.index == 1 -%}
+| {{ project|upper }} | {{ platform|capitalize }} | {{ hardware }} ({{ target }}) |
+{% elif loop.index == 1 and loop0.index == 1 and loop1.index == 1 -%}
+|          | {{ platform|capitalize }} | {{ hardware }} ({{ target }}) |
+{% elif  loop1.index == 1 -%}
+|          |        | {{ hardware }} ({{ target }}) |
+{% endif -%}
+
+{% endfor -%}
+{% endfor -%}
+{% endfor -%}
+{% endfor  %}
+{%- endblock -%}

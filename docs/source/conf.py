@@ -89,4 +89,5 @@ rst_prolog = """
 .. |release_version_bold| replace:: **master**
 .. |vivado_version| replace:: 2021.1
 .. |linux_branch| replace:: master
+.. |no_os_branch| replace:: master
 """
