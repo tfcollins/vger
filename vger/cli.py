@@ -34,7 +34,6 @@ def hdl(ctx, clone, hdl_doc_folder):
 
     \b
     """
-    click.echo(ctx)
     ho = hdlv(clone=clone)
     out = ho.parse_hdl_repo()
     ho.generate_reference_design_pages(out)
@@ -62,7 +61,6 @@ def linux(ctx, clone, linux_doc_folder):
 
     \b
     """
-    click.echo(ctx)
     lo = linuxv(clone=clone)
     out = lo.parse_linux_repo()
     lo.generate_reference_design_pages(out)

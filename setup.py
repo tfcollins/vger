@@ -4,7 +4,7 @@ setup(
     name='vger-doc-tools',
     version='0.1.0',
     packages=find_packages(),
-    package_data={ "vger": ["_templates/*"] },
+    package_data={ "vger": ["_templates/*","db/*"] },
     include_package_data=True,
     install_requires=[
         'Click',
