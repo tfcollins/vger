@@ -9,3 +9,7 @@ sphinx-design
 sphinx-inline-tabs
 sphinx-tabs
 Sphinx-Substitution-Extensions
+sphinx-panels
+
+click
+jinja2

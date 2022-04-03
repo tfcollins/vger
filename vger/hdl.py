@@ -14,7 +14,7 @@ class hdl(core):
         repo_url="https://github.com/analogdevicesinc/hdl.git",
         branch="master",
         clone=False,
-        hdl_doc_folder=None,
+        hdl_doc_folder=os.path.join("docs","source","hdl"),
     ):
         self.hdl_repo_dir = hdl_repo_dir
         self.repo_url = repo_url
@@ -46,7 +46,7 @@ class hdl(core):
         elif clone:
             os.system(
                 f"git clone -b {self.branch} --single-branch"
-                + f" --depth 1 {self.repo}"
+                + f" --depth 1 {self.repo_url}"
                 + f" {self.hdl_repo_dir}"
             )
         return os.path.exists(self.hdl_repo_dir)
