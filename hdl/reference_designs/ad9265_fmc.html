@@ -5,13 +5,16 @@
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 <link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="AD9434-FMC HDL Reference Design" href="ad9434_fmc.html" /><link rel="prev" title="AD9213-DUAL-EBZ HDL Reference Design" href="ad9213_dual_ebz.html" />
 
-    <meta name="generator" content="sphinx-4.4.0, furo 2022.03.04"/>
+    <meta name="generator" content="sphinx-4.5.0, furo 2022.03.04"/>
         <title>AD9265-FMC HDL Reference Design - Analog Devices, Inc. Prototyping Platform 2021.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=935aa2abcc5c1da4283d1dc201fb1f0add16d23a" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=25ceb02ed1c46dc30f2321ff83e92799f69dfdb9" />
     <link rel="stylesheet" type="text/css" href="../../_static/sdg_logo.css" />
     
@@ -204,15 +207,21 @@ xmlns="http://www.w3.org/2000/svg"
   <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../overview.html">Overview</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Software</span></p>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
 <ul>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../linux/index.html">Linux drivers and user-space resources</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Embedded Software</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../linux/kuiper.html">Kuiper Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linux/petalinux.html">PetaLinux</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../linux/drivers.html">Linux Drivers and Kernel</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../linux/build.html">Building Kernels</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../linux/petalinux.html">PetaLinux</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../linux/dt_bindings/index.html">DeviceTree Bindings</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3 has-children"><a class="reference internal" href="../../linux/dt_bindings/device_tree_index.html">Device Bindings Index</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../linux/dt_bindings/devs/ADI_AD5770R.html">AD5770R</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../linux/dt_bindings/devs/ADI_AD5766.html">AD5766</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../linux/dt_bindings/devs/ADI_LTC2688.html">LTC2688</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../linux/dt_bindings/devs/ADI_AD7293.html">AD7293</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../linux/dt_bindings/devs/ADI_AD3552R.html">AD3552R</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../linux/dt_bindings/devs/ADI_ADMV8818.html">ADMV8818</a></li>
@@ -258,77 +267,82 @@ xmlns="http://www.w3.org/2000/svg"
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../../no_os/no_os_project_index.html">No-OS Projects Index All</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">HDL</span></p>
+<p class="caption" role="heading"><span class="caption-text">HDL IP</span></p>
 <ul class="current">
-<li class="toctree-l1 current has-children"><a class="reference internal" href="../index.html">HDL</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l2 current has-children"><a class="reference internal" href="../reference_design_index.html">HDL Reference Designs</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="ad40xx_fmc.html">AD40XX-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad4630_fmc.html">AD4630-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad469x_fmc.html">AD469X-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad5758_sdz.html">AD5758-SDZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad5766_sdz.html">AD5766-SDZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad6676evb.html">AD6676EVB HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad7134_fmc.html">AD7134-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad738x_fmc.html">AD738X-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad7405_fmc.html">AD7405-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad7616_sdz.html">AD7616-SDZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad77681evb.html">AD77681EVB HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad7768evb.html">AD7768EVB HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9081_fmca_ebz.html">AD9081-FMCA-EBZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9082_fmca_ebz.html">AD9082-FMCA-EBZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9083_evb.html">AD9083-EVB HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9208_dual_ebz.html">AD9208-DUAL-EBZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9213_dual_ebz.html">AD9213-DUAL-EBZ HDL Reference Design</a></li>
-<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">AD9265-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9434_fmc.html">AD9434-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9467_fmc.html">AD9467-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9656_fmc.html">AD9656-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9739a_fmc.html">AD9739A-FMC HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad9783_ebz.html">AD9783-EBZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad_fmclidar1_ebz.html">AD-FMCLIDAR1-EBZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ad_quadmxfe1_ebz.html">AD-QUADMXFE1-EBZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="adaq7980_sdz.html">ADAQ7980-SDZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="adrv9001.html">ADRV9001 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="adrv9009.html">ADRV9009 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="adrv9009zu11eg.html">ADRV9009ZU11EG HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="adrv9361z7035.html">ADRV9361Z7035 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="adrv9364z7020.html">ADRV9364Z7020 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="adrv9371x.html">ADRV9371X HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="adv7511.html">ADV7511 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="adv7513.html">ADV7513 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="arradio.html">ARRADIO HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="cn0363.html">CN0363 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="cn0501.html">CN0501 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="cn0506_mii.html">CN0506-MII HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="cn0506_rgmii.html">CN0506-RGMII HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="cn0506_rmii.html">CN0506-RMII HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="cn0540.html">CN0540 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="dac_fmc_ebz.html">DAC-FMC-EBZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="daq2.html">DAQ2 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="daq3.html">DAQ3 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="fmcadc2.html">FMCADC2 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="fmcadc5.html">FMCADC5 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="fmcjesdadc1.html">FMCJESDADC1 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="fmcomms11.html">FMCOMMS11 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="fmcomms2.html">FMCOMMS2 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="fmcomms5.html">FMCOMMS5 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="fmcomms8.html">FMCOMMS8 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="imageon.html">IMAGEON HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="m2k.html">M2K HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pluto.html">PLUTO HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pluto_ng.html">PLUTO-NG HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pulsar_adc_pmdz.html">PULSAR-ADC-PMDZ HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="sidekiqz2.html">SIDEKIQZ2 HDL Reference Design</a></li>
-<li class="toctree-l3"><a class="reference internal" href="usrpe31x.html">USRPE31X HDL Reference Design</a></li>
-</ul>
-</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../reference_design_index.html">HDL Reference Designs</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ad40xx_fmc.html">AD40XX-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad4630_fmc.html">AD4630-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad469x_fmc.html">AD469X-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad5758_sdz.html">AD5758-SDZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad5766_sdz.html">AD5766-SDZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad6676evb.html">AD6676EVB HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad7134_fmc.html">AD7134-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad738x_fmc.html">AD738X-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad7405_fmc.html">AD7405-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad7616_sdz.html">AD7616-SDZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad77681evb.html">AD77681EVB HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad7768evb.html">AD7768EVB HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9081_fmca_ebz.html">AD9081-FMCA-EBZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9082_fmca_ebz.html">AD9082-FMCA-EBZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9083_evb.html">AD9083-EVB HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9208_dual_ebz.html">AD9208-DUAL-EBZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9213_dual_ebz.html">AD9213-DUAL-EBZ HDL Reference Design</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">AD9265-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9434_fmc.html">AD9434-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9467_fmc.html">AD9467-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9656_fmc.html">AD9656-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9739a_fmc.html">AD9739A-FMC HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad9783_ebz.html">AD9783-EBZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad_fmclidar1_ebz.html">AD-FMCLIDAR1-EBZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ad_quadmxfe1_ebz.html">AD-QUADMXFE1-EBZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adaq7980_sdz.html">ADAQ7980-SDZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adrv9001.html">ADRV9001 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adrv9009.html">ADRV9009 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adrv9009zu11eg.html">ADRV9009ZU11EG HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adrv9361z7035.html">ADRV9361Z7035 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adrv9364z7020.html">ADRV9364Z7020 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adrv9371x.html">ADRV9371X HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adv7511.html">ADV7511 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adv7513.html">ADV7513 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arradio.html">ARRADIO HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cn0363.html">CN0363 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cn0501.html">CN0501 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cn0506_mii.html">CN0506-MII HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cn0506_rgmii.html">CN0506-RGMII HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cn0506_rmii.html">CN0506-RMII HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cn0540.html">CN0540 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dac_fmc_ebz.html">DAC-FMC-EBZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daq2.html">DAQ2 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daq3.html">DAQ3 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fmcadc2.html">FMCADC2 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fmcadc5.html">FMCADC5 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fmcjesdadc1.html">FMCJESDADC1 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fmcomms11.html">FMCOMMS11 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fmcomms2.html">FMCOMMS2 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fmcomms5.html">FMCOMMS5 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fmcomms8.html">FMCOMMS8 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="imageon.html">IMAGEON HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="m2k.html">M2K HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pluto.html">PLUTO HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pluto_ng.html">PLUTO-NG HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pulsar_adc_pmdz.html">PULSAR-ADC-PMDZ HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sidekiqz2.html">SIDEKIQZ2 HDL Reference Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usrpe31x.html">USRPE31X HDL Reference Design</a></li>
 </ul>
 </li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tools</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../tools/index.html">Support Tools</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../tools/part_tools.html">Part Specific Tools</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tools/libad9361.html">libad9361-iio: Configuration Library For AD936x Devices</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../vger.html">Vger Doc Tools</a></li>
 </ul>
 
 </div>

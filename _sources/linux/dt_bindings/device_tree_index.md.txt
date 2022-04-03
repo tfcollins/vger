@@ -3,6 +3,7 @@
 ```{toctree}
 devs/ADI_AD5770R.md
 devs/ADI_AD5766.md
+devs/ADI_LTC2688.md
 devs/ADI_AD7293.md
 devs/ADI_AD3552R.md
 devs/ADI_ADMV8818.md
