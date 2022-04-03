@@ -14,7 +14,7 @@ class linux(core):
         repo_url="https://github.com/analogdevicesinc/linux.git",
         branch="master",
         clone=False,
-        linux_doc_folder=None,
+        linux_doc_folder=os.path.join("docs","source","linux"),
     ):
         self.linux_repo_dir = linux_repo_dir
         self.repo_url = repo_url
@@ -46,7 +46,7 @@ class linux(core):
         elif clone:
             os.system(
                 f"git clone -b {self.branch} --single-branch"
-                + f" --depth 1 {self.repo}"
+                + f" --depth 1 {self.repo_url}"
                 + f" {self.linux_repo_dir}"
             )
         return os.path.exists(self.linux_repo_dir)

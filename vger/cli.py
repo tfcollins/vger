@@ -1,5 +1,6 @@
 import click
 from .hdl import hdl as hdlv
+from .linux import linux as linuxv
 import subprocess
 import os
 
@@ -37,6 +38,34 @@ def hdl(ctx, clone, hdl_doc_folder):
     ho = hdlv(clone=clone)
     out = ho.parse_hdl_repo()
     ho.generate_reference_design_pages(out)
+
+
+@cli.command()
+@click.option(
+    "--clone",
+    "-c",
+    is_flag=True,
+    default=False,
+    help="Clone Linux repo",
+)
+@click.option(
+    "--linux-doc-folder",
+    "-h",
+    is_flag=False,
+    type=click.Path(exists=True),
+    default=None,
+    help="Path to Linux documentation folder within Sphinx project",
+)
+@click.pass_context
+def linux(ctx, clone, linux_doc_folder):
+    """Clone, parse, and generate documentation for Linux codebase.
+
+    \b
+    """
+    click.echo(ctx)
+    lo = linuxv(clone=clone)
+    out = lo.parse_linux_repo()
+    lo.generate_reference_design_pages(out)
 
 
 @cli.command()
