@@ -63,7 +63,7 @@ def linux(ctx, clone, linux_doc_folder):
     """
     lo = linuxv(clone=clone)
     out = lo.parse_linux_repo()
-    lo.generate_reference_design_pages(out)
+    # lo.generate_reference_design_pages(out)
 
 
 @cli.command()

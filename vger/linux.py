@@ -1,5 +1,10 @@
 """Parser and documentation generator for the ADI Linux repo"""
 from .common import core
+from .process_devicetree_doc import (
+    build_common_dt_bindings_reference,
+    create_md_index,
+    generate_md_files,
+)
 import glob
 import os
 import json
@@ -10,11 +15,11 @@ class linux(core):
 
     def __init__(
         self,
-        linux_repo_dir="linux",
+        linux_repo_dir=os.path.join(os.getcwd(), "linux"),
         repo_url="https://github.com/analogdevicesinc/linux.git",
         branch="master",
         clone=False,
-        linux_doc_folder=os.path.join("docs","source","linux"),
+        linux_doc_folder=os.path.join("docs", "source", "linux"),
     ):
         self.linux_repo_dir = linux_repo_dir
         self.repo_url = repo_url
@@ -130,7 +135,17 @@ class linux(core):
         """Parse the Linux repository and return the following:"""
         # self.parse_linux_doc()
         # self.parse_linux_cores()
+
+        # Platform DT examples
         platforms = self._get_platforms_info()
         platforms = self._find_all_dts_files_for_platform(platforms)
+
+        # Bindings docs
+        target_dir = os.path.join(self.linux_doc_folder, "dt_bindings")
+        fns = generate_md_files(self.linux_repo_dir, target_dir)
+
+        create_md_index(fns, target_dir)
+
+        build_common_dt_bindings_reference(self.linux_repo_dir, target_dir)
 
         return platforms
