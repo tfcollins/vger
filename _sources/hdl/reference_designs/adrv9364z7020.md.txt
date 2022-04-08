@@ -2,15 +2,15 @@
 
 ## Supported FPGA Carriers
 
-- ccbob_lvds
-- ccpackrf_lvds
 - ccbob_cmos
+- ccpackrf_lvds
+- ccbob_lvds
 
 
 
 ## Library Core Dependencies
 
-- ccbob_lvds
+- ccbob_cmos
 - axi_ad9361
 - axi_dmac
 - axi_gpreg
@@ -36,7 +36,7 @@
 - util_wfifo
 - xilinx/util_clkdiv
 
-- ccbob_cmos
+- ccbob_lvds
 - axi_ad9361
 - axi_dmac
 - axi_gpreg

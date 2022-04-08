@@ -2,21 +2,13 @@
 
 ## Supported FPGA Carriers
 
-- zc706
 - zed
 - zc702
+- zc706
 
 
 
 ## Library Core Dependencies
-
-- zc706
-- axi_clkgen
-- axi_dmac
-- axi_hdmi_tx
-- axi_spdif_tx
-- axi_sysid
-- sysid_rom
 
 - zed
 - axi_clkgen
@@ -29,6 +21,14 @@
 - util_i2c_mixer
 
 - zc702
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+
+- zc706
 - axi_clkgen
 - axi_dmac
 - axi_hdmi_tx

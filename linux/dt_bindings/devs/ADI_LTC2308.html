@@ -3,19 +3,19 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" /><link rel="next" title="AD7292" href="ADI_AD7292.html" /><link rel="prev" title="AD7291" href="ADI_AD7291.html" />
+<link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" /><link rel="next" title="AD7923" href="ADI_AD7923.html" /><link rel="prev" title="LTC2471" href="ADI_LTC2471.html" />
 
-    <meta name="generator" content="sphinx-4.5.0, furo 2022.03.04"/>
+    <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07"/>
         <title>LTC2308 - Analog Devices, Inc. Prototyping Platform 2021.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?digest=935aa2abcc5c1da4283d1dc201fb1f0add16d23a" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
     <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?digest=25ceb02ed1c46dc30f2321ff83e92799f69dfdb9" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sdg_logo.css" />
     
     
@@ -43,10 +43,12 @@
   }
 </style></head>
   <body>
+    
     <script>
       document.body.dataset.theme = localStorage.getItem("theme") || "auto";
     </script>
     
+
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="svg-toc" viewBox="0 0 24 24">
     <title>Contents</title>
@@ -219,48 +221,50 @@ xmlns="http://www.w3.org/2000/svg"
 <li class="toctree-l2"><a class="reference internal" href="../../build.html">Building Kernels</a></li>
 <li class="toctree-l2 current has-children"><a class="reference internal" href="../index.html">DeviceTree Bindings</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l3 current has-children"><a class="reference internal" href="../device_tree_index.html">Device Bindings Index</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD5770R.html">AD5770R</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD5766.html">AD5766</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_LTC2688.html">LTC2688</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD7293.html">AD7293</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD3552R.html">AD3552R</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADMV8818.html">ADMV8818</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADAR300X.html">ADAR300X</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADMV1014.html">ADMV1014</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADL5960.html">ADL5960</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_LTC6952.html">LTC6952</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADRF6780.html">ADRF6780</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADMV4420.html">ADMV4420</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADMV1013.html">ADMV1013</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADXL345.html">ADXL345</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADXL372.html">ADXL372</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADXL367.html">ADXL367</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADIS16240.html">ADIS16240</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADXL355.html">ADXL355</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADA4250.html">ADA4250</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_HMC425A.html">HMC425A</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD7291.html">AD7291</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_LTC2471.html">LTC2471</a></li>
+<li class="toctree-l4 current current-page"><a class="current reference internal" href="#">LTC2308</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD7923.html">AD7923</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD7292.html">AD7292</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ADI_AD9467.html">AD9467</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD7768-1.html">AD7768-1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD7091R5.html">AD7091R5</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AXI-ADC.html">AXI-ADC</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AXI-PULSE-CAPTURE.html">AXI-PULSE-CAPTURE</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD7192.html">AD7192</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD7124.html">AD7124</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD7606.html">AD7606</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ADI_AD9083.html">AD9083</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ADI_ADAR1000.html">ADAR1000</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ADI_AD7780.html">AD7780</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD7192.html">AD7192</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AXI-PULSE-CAPTURE.html">AXI-PULSE-CAPTURE</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AXI-ADC.html">AXI-ADC</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD7923.html">AD7923</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD7606.html">AD7606</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD7291.html">AD7291</a></li>
-<li class="toctree-l4 current current-page"><a class="current reference internal" href="#">LTC2308</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD7292.html">AD7292</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD7124.html">AD7124</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD7091R5.html">AD7091R5</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_AD7768-1.html">AD7768-1</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ADI_AD7949.html">AD7949</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_LTC2471.html">LTC2471</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADA4250.html">ADA4250</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_HMC425A.html">HMC425A</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADF4377.html">ADF4377</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADRF6780.html">ADRF6780</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD9783.html">AD9783</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADMV1014.html">ADMV1014</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADL5960.html">ADL5960</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADMV4420.html">ADMV4420</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADMV1013.html">ADMV1013</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_LTC6952.html">LTC6952</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADXL355.html">ADXL355</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADXL345.html">ADXL345</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADXL367.html">ADXL367</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADXL372.html">ADXL372</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADIS16240.html">ADIS16240</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADIS16475.html">ADIS16475</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADIS16460.html">ADIS16460</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD7293.html">AD7293</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD3552R.html">AD3552R</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD5770R.html">AD5770R</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_LTC2688.html">LTC2688</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_AD5766.html">AD5766</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ADI_LTC2983.html">LTC2983</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADMV8818.html">ADMV8818</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ADI_ADAR300X.html">ADAR300X</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ADI_ADXRS290.html">ADXRS290</a></li>
 <li class="toctree-l4"><a class="reference internal" href="ADI_AD74413R.html">AD74413R</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADIS16460.html">ADIS16460</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ADI_ADIS16475.html">ADIS16475</a></li>
 </ul>
 </li>
 </ul>
@@ -271,7 +275,7 @@ xmlns="http://www.w3.org/2000/svg"
 </ul>
 <p class="caption" role="heading"><span class="caption-text">HDL IP</span></p>
 <ul>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../../hdl/reference_design_index.html">HDL Reference Designs</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../hdl/hdl_reference_design_index.html">HDL Reference Designs</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../hdl/reference_designs/ad40xx_fmc.html">AD40XX-FMC HDL Reference Design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../hdl/reference_designs/ad4630_fmc.html">AD4630-FMC HDL Reference Design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../hdl/reference_designs/ad469x_fmc.html">AD469X-FMC HDL Reference Design</a></li>
@@ -424,23 +428,23 @@ xmlns="http://www.w3.org/2000/svg"
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="ADI_AD7292.html">
+          <a class="next-page" href="ADI_AD7923.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">AD7292</div>
+                <div class="title">AD7923</div>
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="ADI_AD7291.html">
+          <a class="prev-page" href="ADI_LTC2471.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">AD7291</div>
+                <div class="title">LTC2471</div>
                 
               </div>
             </a>

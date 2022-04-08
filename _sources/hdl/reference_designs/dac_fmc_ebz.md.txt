@@ -2,14 +2,26 @@
 
 ## Supported FPGA Carriers
 
+- zcu102
 - zc706
 - vcu118
 - a10soc
-- zcu102
 
 
 
 ## Library Core Dependencies
+
+- zcu102
+- axi_dmac
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_dac
+- jesd204/axi_jesd204_tx
+- jesd204/jesd204_tx
+- sysid_rom
+- util_dacfifo
+- util_pack/util_upack2
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
 
 - zc706
 - axi_clkgen
@@ -45,16 +57,4 @@
 - jesd204/ad_ip_jesd204_tpl_dac
 - sysid_rom
 - util_pack/util_upack2
-
-- zcu102
-- axi_dmac
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_dac
-- jesd204/axi_jesd204_tx
-- jesd204/jesd204_tx
-- sysid_rom
-- util_dacfifo
-- util_pack/util_upack2
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
 

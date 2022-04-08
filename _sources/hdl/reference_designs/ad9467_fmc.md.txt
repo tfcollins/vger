@@ -2,18 +2,12 @@
 
 ## Supported FPGA Carriers
 
-- kc705
 - zed
+- kc705
 
 
 
 ## Library Core Dependencies
-
-- kc705
-- axi_ad9467
-- axi_dmac
-- axi_sysid
-- sysid_rom
 
 - zed
 - axi_ad9467
@@ -25,4 +19,10 @@
 - axi_sysid
 - sysid_rom
 - util_i2c_mixer
+
+- kc705
+- axi_ad9467
+- axi_dmac
+- axi_sysid
+- sysid_rom
 

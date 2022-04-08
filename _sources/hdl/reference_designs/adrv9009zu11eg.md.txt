@@ -2,33 +2,15 @@
 
 ## Supported FPGA Carriers
 
-- adrv2crr_fmc
 - adrv2crr_fmcomms8
 - adrv2crr_xmicrowave
+- adrv2crr_fmc
 - adrv2crr_fmcxmwbr1
 
 
 
 ## Library Core Dependencies
 
-- adrv2crr_fmc
-- axi_dmac
-- axi_fan_control
-- axi_i2s_adi
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- jesd204/axi_jesd204_rx
-- jesd204/axi_jesd204_tx
-- jesd204/jesd204_rx
-- jesd204/jesd204_tx
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- xilinx/axi_adxcvr
-- xilinx/axi_dacfifo
-- xilinx/util_adxcvr
-
 - adrv2crr_fmcomms8
 - axi_dmac
 - axi_fan_control
@@ -48,6 +30,24 @@
 - xilinx/util_adxcvr
 
 - adrv2crr_xmicrowave
+- axi_dmac
+- axi_fan_control
+- axi_i2s_adi
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/ad_ip_jesd204_tpl_dac
+- jesd204/axi_jesd204_rx
+- jesd204/axi_jesd204_tx
+- jesd204/jesd204_rx
+- jesd204/jesd204_tx
+- sysid_rom
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- xilinx/axi_adxcvr
+- xilinx/axi_dacfifo
+- xilinx/util_adxcvr
+
+- adrv2crr_fmc
 - axi_dmac
 - axi_fan_control
 - axi_i2s_adi

@@ -2,13 +2,13 @@
 
 ## Supported FPGA Carriers
 
-- null
+- None
 
 
 
 ## Library Core Dependencies
 
-- null
+- None
 - axi_adrv9001
 - axi_dmac
 - axi_sysid

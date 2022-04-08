@@ -2,20 +2,12 @@
 
 ## Supported FPGA Carriers
 
-- de10nano
 - coraz7s
+- de10nano
 
 
 
 ## Library Core Dependencies
-
-- de10nano
-- axi_dmac
-- axi_hdmi_tx
-- spi_engine/axi_spi_engine
-- spi_engine/spi_engine_execution
-- spi_engine/spi_engine_interconnect
-- spi_engine/spi_engine_offload
 
 - coraz7s
 - axi_clkgen
@@ -26,4 +18,12 @@
 - spi_engine/spi_engine_interconnect
 - spi_engine/spi_engine_offload
 - sysid_rom
+
+- de10nano
+- axi_dmac
+- axi_hdmi_tx
+- spi_engine/axi_spi_engine
+- spi_engine/spi_engine_execution
+- spi_engine/spi_engine_interconnect
+- spi_engine/spi_engine_offload
 

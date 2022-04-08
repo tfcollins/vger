@@ -90,7 +90,7 @@ no_os/no_os_project_index
 :caption: HDL IP
 :hidden:
 
-hdl/reference_design_index
+hdl/hdl_reference_design_index
 ```
 
 ```{toctree}

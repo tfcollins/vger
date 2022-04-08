@@ -2,70 +2,19 @@
 
 ## Supported FPGA Carriers
 
-- zc706
+- zcu102
+- zed
+- kc705
 - vc707
 - kcu105
-- zcu102
-- kc705
-- zed
 - zc702
+- zc706
 
 
 
 ## Library Core Dependencies
 
-- zc706
-- axi_ad9361
-- axi_clkgen
-- axi_dmac
-- axi_hdmi_tx
-- axi_spdif_tx
-- axi_sysid
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- util_rfifo
-- util_tdd_sync
-- util_wfifo
-- xilinx/util_clkdiv
-
-- vc707
-- axi_ad9361
-- axi_dmac
-- axi_sysid
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- util_rfifo
-- util_tdd_sync
-- util_wfifo
-- xilinx/util_clkdiv
-
-- kcu105
-- axi_ad9361
-- axi_dmac
-- axi_sysid
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- util_rfifo
-- util_tdd_sync
-- util_wfifo
-- xilinx/util_clkdiv
-
 - zcu102
-- axi_ad9361
-- axi_dmac
-- axi_sysid
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- util_rfifo
-- util_tdd_sync
-- util_wfifo
-- xilinx/util_clkdiv
-
-- kc705
 - axi_ad9361
 - axi_dmac
 - axi_sysid
@@ -94,7 +43,58 @@
 - util_wfifo
 - xilinx/util_clkdiv
 
+- kc705
+- axi_ad9361
+- axi_dmac
+- axi_sysid
+- sysid_rom
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- util_rfifo
+- util_tdd_sync
+- util_wfifo
+- xilinx/util_clkdiv
+
+- vc707
+- axi_ad9361
+- axi_dmac
+- axi_sysid
+- sysid_rom
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- util_rfifo
+- util_tdd_sync
+- util_wfifo
+- xilinx/util_clkdiv
+
+- kcu105
+- axi_ad9361
+- axi_dmac
+- axi_sysid
+- sysid_rom
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- util_rfifo
+- util_tdd_sync
+- util_wfifo
+- xilinx/util_clkdiv
+
 - zc702
+- axi_ad9361
+- axi_clkgen
+- axi_dmac
+- axi_hdmi_tx
+- axi_spdif_tx
+- axi_sysid
+- sysid_rom
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- util_rfifo
+- util_tdd_sync
+- util_wfifo
+- xilinx/util_clkdiv
+
+- zc706
 - axi_ad9361
 - axi_clkgen
 - axi_dmac

@@ -2,15 +2,49 @@
 
 ## Supported FPGA Carriers
 
-- zc706
-- a10gx
-- a10soc
-- kcu105
 - zcu102
+- kcu105
+- zc706
+- a10soc
+- a10gx
 
 
 
 ## Library Core Dependencies
+
+- zcu102
+- axi_clkgen
+- axi_dmac
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/ad_ip_jesd204_tpl_dac
+- jesd204/axi_jesd204_rx
+- jesd204/axi_jesd204_tx
+- jesd204/jesd204_rx
+- jesd204/jesd204_tx
+- sysid_rom
+- util_dacfifo
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
+
+- kcu105
+- axi_clkgen
+- axi_dmac
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/ad_ip_jesd204_tpl_dac
+- jesd204/axi_jesd204_rx
+- jesd204/axi_jesd204_tx
+- jesd204/jesd204_rx
+- jesd204/jesd204_tx
+- sysid_rom
+- util_dacfifo
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
 
 - zc706
 - axi_clkgen
@@ -31,16 +65,6 @@
 - xilinx/axi_dacfifo
 - xilinx/util_adxcvr
 
-- a10gx
-- axi_dmac
-- axi_sysid
-- intel/adi_jesd204
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
-
 - a10soc
 - axi_dmac
 - axi_sysid
@@ -51,37 +75,13 @@
 - util_pack/util_cpack2
 - util_pack/util_upack2
 
-- kcu105
-- axi_clkgen
+- a10gx
 - axi_dmac
 - axi_sysid
+- intel/adi_jesd204
 - jesd204/ad_ip_jesd204_tpl_adc
 - jesd204/ad_ip_jesd204_tpl_dac
-- jesd204/axi_jesd204_rx
-- jesd204/axi_jesd204_tx
-- jesd204/jesd204_rx
-- jesd204/jesd204_tx
 - sysid_rom
-- util_dacfifo
 - util_pack/util_cpack2
 - util_pack/util_upack2
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
-
-- zcu102
-- axi_clkgen
-- axi_dmac
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- jesd204/axi_jesd204_rx
-- jesd204/axi_jesd204_tx
-- jesd204/jesd204_rx
-- jesd204/jesd204_tx
-- sysid_rom
-- util_dacfifo
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
 

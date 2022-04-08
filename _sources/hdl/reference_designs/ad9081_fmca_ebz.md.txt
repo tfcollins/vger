@@ -2,16 +2,62 @@
 
 ## Supported FPGA Carriers
 
-- zc706
-- vcu118
-- vck190
-- a10soc
 - vcu128
 - zcu102
+- zc706
+- vcu118
+- a10soc
+- vck190
 
 
 
 ## Library Core Dependencies
+
+- vcu128
+- axi_dmac
+- axi_sysid
+- axi_tdd
+- data_offload
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/ad_ip_jesd204_tpl_dac
+- jesd204/axi_jesd204_rx
+- jesd204/axi_jesd204_tx
+- jesd204/jesd204_rx
+- jesd204/jesd204_tx
+- jesd204/jesd204_versal_gt_adapter_rx
+- jesd204/jesd204_versal_gt_adapter_tx
+- sysid_rom
+- util_adcfifo
+- util_dacfifo
+- util_fifo2axi_bridge
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- util_tdd_sync
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
+
+- zcu102
+- axi_dmac
+- axi_sysid
+- axi_tdd
+- data_offload
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/ad_ip_jesd204_tpl_dac
+- jesd204/axi_jesd204_rx
+- jesd204/axi_jesd204_tx
+- jesd204/jesd204_rx
+- jesd204/jesd204_tx
+- jesd204/jesd204_versal_gt_adapter_rx
+- jesd204/jesd204_versal_gt_adapter_tx
+- sysid_rom
+- util_adcfifo
+- util_dacfifo
+- util_fifo2axi_bridge
+- util_pack/util_cpack2
+- util_pack/util_upack2
+- util_tdd_sync
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
 
 - zc706
 - axi_clkgen
@@ -62,29 +108,6 @@
 - xilinx/axi_adxcvr
 - xilinx/util_adxcvr
 
-- vck190
-- axi_dmac
-- axi_sysid
-- axi_tdd
-- data_offload
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- jesd204/axi_jesd204_rx
-- jesd204/axi_jesd204_tx
-- jesd204/jesd204_rx
-- jesd204/jesd204_tx
-- jesd204/jesd204_versal_gt_adapter_rx
-- jesd204/jesd204_versal_gt_adapter_tx
-- sysid_rom
-- util_adcfifo
-- util_dacfifo
-- util_fifo2axi_bridge
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- util_tdd_sync
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
-
 - a10soc
 - axi_dmac
 - axi_sysid
@@ -95,30 +118,7 @@
 - util_pack/util_cpack2
 - util_pack/util_upack2
 
-- vcu128
-- axi_dmac
-- axi_sysid
-- axi_tdd
-- data_offload
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- jesd204/axi_jesd204_rx
-- jesd204/axi_jesd204_tx
-- jesd204/jesd204_rx
-- jesd204/jesd204_tx
-- jesd204/jesd204_versal_gt_adapter_rx
-- jesd204/jesd204_versal_gt_adapter_tx
-- sysid_rom
-- util_adcfifo
-- util_dacfifo
-- util_fifo2axi_bridge
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- util_tdd_sync
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
-
-- zcu102
+- vck190
 - axi_dmac
 - axi_sysid
 - axi_tdd

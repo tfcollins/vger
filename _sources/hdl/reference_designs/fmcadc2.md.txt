@@ -2,12 +2,23 @@
 
 ## Supported FPGA Carriers
 
-- zc706
 - vc707
+- zc706
 
 
 
 ## Library Core Dependencies
+
+- vc707
+- axi_dmac
+- axi_sysid
+- jesd204/ad_ip_jesd204_tpl_adc
+- jesd204/axi_jesd204_rx
+- jesd204/jesd204_rx
+- sysid_rom
+- util_adcfifo
+- xilinx/axi_adxcvr
+- xilinx/util_adxcvr
 
 - zc706
 - axi_clkgen
@@ -20,17 +31,6 @@
 - jesd204/jesd204_rx
 - sysid_rom
 - xilinx/axi_adcfifo
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
-
-- vc707
-- axi_dmac
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/axi_jesd204_rx
-- jesd204/jesd204_rx
-- sysid_rom
-- util_adcfifo
 - xilinx/axi_adxcvr
 - xilinx/util_adxcvr
 
