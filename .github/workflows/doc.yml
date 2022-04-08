@@ -41,17 +41,17 @@ jobs:
       - name: Build doc
         run: |
           pip install -r requirements.txt
-          git clone --depth=1 https://github.com/analogdevicesinc/linux.git
-          git clone --depth=1 https://github.com/analogdevicesinc/hdl.git
-          git clone --depth=1 https://github.com/analogdevicesinc/no-os.git
+          # git clone --depth=1 https://github.com/analogdevicesinc/linux.git
+          # git clone --depth=1 https://github.com/analogdevicesinc/hdl.git
+          # git clone --depth=1 https://github.com/analogdevicesinc/no-os.git
           # cd docs/tools
           # python process_devicetree_doc.py
           # python find_hdl_platforms.py
           # cd ../..
           pip install .
-          vger linux
-          vger hdl
-          vger no-os
+          vger linux -c
+          vger hdl -c
+          vger no-os -c
           make -C docs html
 
       - name: Publish doc
