@@ -14,7 +14,7 @@ class no_os(core):
         repo_url="https://github.com/analogdevicesinc/no-OS.git",
         branch="master",
         clone=False,
-        no_os_doc_folder=None,
+        no_os_doc_folder=os.path.join("docs", "source", "no_os"),
     ):
         self.no_os_repo_dir = no_os_repo_dir
         self.repo_url = repo_url
@@ -66,13 +66,15 @@ class no_os(core):
     def generate_no_os_project_table(self, projects):
         """Generate the no-OS project table"""
         # Index Page
+        # loc = os.path.dirname(__file__)
+        # tloc = os.path.join(loc, )
         template = self._read_template("noos_project_index.tmpl")
         output = template.render(projects=projects)
 
         with open(f"{self.no_os_doc_folder}/no_os_project_index.md", "w") as f:
             f.write(output)
 
-    def parse_no_os_repo():
+    def parse_no_os_repo(self):
         """Parse the no-OS repository"""
         all_projects = self._parse_all_project_jsons()
         # for project in all_projects:

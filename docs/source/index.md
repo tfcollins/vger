@@ -80,8 +80,6 @@ tutorials/index
 linux/kuiper
 linux/petalinux
 linux/drivers
-linux/no_os
-linux/no_os_project_map
 no_os/no_os_project_index
 
 ```

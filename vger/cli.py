@@ -1,6 +1,7 @@
 import click
 from .hdl import hdl as hdlv
 from .linux import linux as linuxv
+from .no_os import no_os as no_osv
 import subprocess
 import os
 
@@ -63,6 +64,35 @@ def linux(ctx, clone, linux_doc_folder):
     """
     lo = linuxv(clone=clone)
     out = lo.parse_linux_repo()
+    # lo.generate_reference_design_pages(out)
+
+
+@cli.command()
+@click.option(
+    "--clone",
+    "-c",
+    is_flag=True,
+    default=False,
+    help="Clone No-OS repo",
+)
+@click.option(
+    "--noos-doc-folder",
+    "-h",
+    is_flag=False,
+    type=click.Path(exists=True),
+    default=None,
+    help="Path to No-OS documentation folder within Sphinx project",
+)
+@click.pass_context
+def no_os(ctx, clone, noos_doc_folder):
+    """Clone, parse, and generate documentation for Linux codebase.
+
+    \b
+    """
+    lo = no_osv(clone=clone)
+    out = lo.parse_no_os_repo()
+    print(out)
+    lo.generate_no_os_project_table(out)
     # lo.generate_reference_design_pages(out)
 
 
