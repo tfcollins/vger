@@ -132,6 +132,7 @@ No-OS is written and tested on various Xilinx, Intel, Arduino, and Raspberry Pi 
 |          |        | ad9081_fmca_ebz_zcu102 (demo) |
 |          |        | ad9081_fmca_ebz_vcu118 (iio) |
 |          |        | ad9081_fmca_ebz_zcu102 (iio) |
+| EVAL-ADXL367Z | Xilinx | adxl367_xilinx_zed (dummy_example) |
 | AD9371 | Xilinx | adrv9371x_kcu105 (demo) |
 |          |        | adrv9371x_zc706 (demo) |
 |          |        | adrv9371x_zcu102 (demo) |

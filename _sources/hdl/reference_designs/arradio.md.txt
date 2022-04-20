@@ -11,6 +11,7 @@
 - c5soc
 - axi_ad9361
 - axi_dmac
+- axi_hdmi_tx
 - axi_sysid
 - sysid_rom
 - util_pack/util_cpack2

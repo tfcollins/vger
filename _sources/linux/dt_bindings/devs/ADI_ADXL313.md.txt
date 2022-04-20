@@ -1,0 +1,4 @@
+# ADXL313
+
+```{devicetree} /home/runner/work/vger/vger/linux/Documentation/devicetree/bindings/iio/accel/adi,adxl313.yaml
+```

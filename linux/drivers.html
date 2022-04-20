@@ -206,10 +206,7 @@ xmlns="http://www.w3.org/2000/svg"
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <ul>
-<li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+  <p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Tutorials</a></li>
 </ul>
@@ -249,6 +246,7 @@ xmlns="http://www.w3.org/2000/svg"
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADMV1013.html">ADMV1013</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_LTC6952.html">LTC6952</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADXL355.html">ADXL355</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADXL313.html">ADXL313</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADXL345.html">ADXL345</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADXL367.html">ADXL367</a></li>
 <li class="toctree-l4"><a class="reference internal" href="dt_bindings/devs/ADI_ADXL372.html">ADXL372</a></li>
@@ -379,7 +377,7 @@ xmlns="http://www.w3.org/2000/svg"
           </label>
         </div>
         <article role="main">
-          <section id="linux-drivers-and-kernel">
+          <section class="tex2jax_ignore mathjax_ignore" id="linux-drivers-and-kernel">
 <h1>Linux Drivers and Kernel<a class="headerlink" href="#linux-drivers-and-kernel" title="Permalink to this headline">#</a></h1>
 <p>ADI maintains Linux drivers for a large number of components including ADCs, DACs, IMUs, accelerometers, transceivers, beamformers, and many others. Drivers are available from the <a class="reference external" href="https://github.com/analogdevicesinc/linux">Linux git repository</a>, which can be used as is (recommended) or merged into your own kernel. The ADI Kuiper Linux distribution uses this kernel by default provided by the <a class="reference external" href="https://wiki.analog.com/resources/tools-software/linux-software/embedded_arm_images">development SD cards</a>.</p>
 <p>The same Kuiper Linux SD card image can be used across all supported development kits such as: Xilinx FPGA or Intel FPGA development kits, and Raspberry Pi small board computers. It can be ported to other platforms from my leveraging existing devicetrees or creating custom ones for new boards.</p>

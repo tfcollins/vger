@@ -4,7 +4,18 @@ hide-toc: true
 
 # Analog Devices, Inc. Prototyping Platform
 
-The ADI prototyping platform is a set of resources and tools that be be used to system level prototyping and leverage for end products.
+The ADI prototyping platform is a set of resources and tools that can be used for system-level prototyping and leverage for end products.
+
+This is reference documentation that is heavily tied to the source code of the different supporting projects. The following project branches or tags and associated tools are reflected in this documentation:
+
+| Project | Branch or Tag | Tooling Versions |
+| ------- | ------ | ---------------- |
+| [hdl](https://github.com/analogdevicesinc/hdl) | master | Vivado {{vivado_version}}, Quartus {{quartus_version}} |
+| [no-OS](https://github.com/analogdevicesinc/no-os) | master | Vivado {{vivado_version}}, Quartus {{quartus_version}} |
+| [Linux](https://github.com/analogdevicesinc/linux) | master | Vivado {{vivado_version}}, Quartus {{quartus_version}} |
+
+Not all possible permutations of tools and branches are available as certain branches or tags are upgraded on a bi-annual basis. Collectively these are called releases, which are tested through a rigorous QA process. If you want to use the master/main branches, also known as non-release branches, these branches should be considered unstable and bugs may exist. Please start from release branches if possible. Otherwise, support can be limited.
+
 
 ```{panels}
 :header: text-center bg-info
@@ -63,7 +74,7 @@ Attach
 ### Overview
 
 ```{toctree}
-overview
+index: Home
 ```
 
 ```{toctree}
