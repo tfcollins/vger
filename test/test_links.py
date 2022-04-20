@@ -4,6 +4,7 @@ import pytest
 
 def test_rdesign_links(subtests):
     """Check all links are valid in reference design table"""
+    pytest.skip("Not supported anymore")
     designs = json.load(open("fpga/referencedesigns.json"))
     for design in designs:
         for urlfield in ["HDLSource", "UserGuide", "HDLDoc", "LinuxDriverDoc"]:
