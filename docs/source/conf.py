@@ -12,18 +12,19 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../plugins/dtdoc'))
-sys.path.insert(0, os.path.abspath('../..'))
+
+sys.path.insert(0, os.path.abspath("../plugins/dtdoc"))
+sys.path.insert(0, os.path.abspath("../.."))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'Analog Devices, Inc. Prototyping Platform'
-copyright = '2022, Systems Development Group'
-author = 'Systems Development Group'
+project = "Analog Devices, Inc. Prototyping Platform"
+copyright = "2022, Systems Development Group"
+author = "Systems Development Group"
 
 # The full version, including alpha/beta/rc tags
-release = '2021.1'
+release = "2021.1"
 
 
 # -- General configuration ---------------------------------------------------
@@ -48,18 +49,35 @@ extensions = [
     "sphinx_inline_tabs",
     "sphinx_panels",
     "dtdoc",
-    "sphinx_substitution_extensions"
+    "sphinx_substitution_extensions",
+    "sphinx_click",
+]
+
+myst_enable_extensions = [
+    "amsmath",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    # "fieldlist",
+    "html_admonition",
+    "html_image",
+    # "linkify",
+    "replacements",
+    "smartquotes",
+    # "strikethrough",
+    "substitution",
+    "tasklist",
 ]
 
 
 d = os.path.dirname(__file__)
 s = os.path.split(d)
 s = os.path.split(s[0])
-s = os.path.join(s[0],'linux','Documentation/devicetree/bindings')
+s = os.path.join(s[0], "linux", "Documentation/devicetree/bindings")
 dt_bindings_include_path = s
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -72,22 +90,26 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'furo'
+html_theme = "furo"
 # html_theme = "sphinx_book_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
 html_css_files = [
-    'sdg_logo.css',
+    "sdg_logo.css",
 ]
 
 # Shared variables
-rst_prolog = """
-.. |release_version| replace:: master
-.. |release_version_bold| replace:: **master**
-.. |vivado_version| replace:: 2021.1
-.. |linux_branch| replace:: master
-.. |no_os_branch| replace:: master
-"""
+myst_substitutions = {
+    "release_version": "master",
+    "release_version_bold": "master",
+    "vivado_version": "2021.1",
+    "quartus_version": "21.2.0",
+    "linux_branch": "master",
+    "no_os_branch": "master",
+}
+rst_prolog = "".join(
+    f".. |{key}| replace:: {value}\n" for key, value in myst_substitutions.items()
+)
