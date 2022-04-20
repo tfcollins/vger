@@ -3,6 +3,7 @@ pytest-subtests
 requests
 furo
 myst-parser
+black
 
 sphinx-copybutton
 sphinx-design
@@ -10,6 +11,8 @@ sphinx-inline-tabs
 sphinx-tabs
 Sphinx-Substitution-Extensions
 sphinx-panels
+sphinx-autobuild
+sphinx-click
 
 click
 jinja2
