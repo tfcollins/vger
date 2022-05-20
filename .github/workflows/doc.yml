@@ -15,6 +15,7 @@ jobs:
 
       - name: Build doc
         run: |
+          sudo apt install -y libgirepository1.0-dev
           pip install -r requirements.txt
           git clone --depth=1 https://github.com/analogdevicesinc/linux.git
           git clone --depth=1 https://github.com/analogdevicesinc/hdl.git
@@ -40,6 +41,7 @@ jobs:
 
       - name: Build doc
         run: |
+          sudo apt install -y libgirepository1.0-dev
           pip install -r requirements.txt
           # git clone --depth=1 https://github.com/analogdevicesinc/linux.git
           # git clone --depth=1 https://github.com/analogdevicesinc/hdl.git
