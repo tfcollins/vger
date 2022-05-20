@@ -1,87 +1,87 @@
-# ADRV9371X HDL Reference Design
+# ADRV9371X
 
 ## Supported FPGA Carriers
 
 - zcu102
 - kcu105
+- a10gx
 - zc706
 - a10soc
-- a10gx
 
 
 
 ## Library Core Dependencies
 
 - zcu102
-- axi_clkgen
-- axi_dmac
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- jesd204/axi_jesd204_rx
-- jesd204/axi_jesd204_tx
-- jesd204/jesd204_rx
-- jesd204/jesd204_tx
-- sysid_rom
-- util_dacfifo
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [jesd204/ad_ip_jesd204_tpl_adc](../ip/jesd204/ad_ip_jesd204_tpl_adc.md)
+- [jesd204/ad_ip_jesd204_tpl_dac](../ip/jesd204/ad_ip_jesd204_tpl_dac.md)
+- [jesd204/axi_jesd204_rx](../ip/jesd204/axi_jesd204_rx.md)
+- [jesd204/axi_jesd204_tx](../ip/jesd204/axi_jesd204_tx.md)
+- [jesd204/jesd204_rx](../ip/jesd204/jesd204_rx.md)
+- [jesd204/jesd204_tx](../ip/jesd204/jesd204_tx.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_dacfifo](../ip/util_dacfifo.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [util_pack/util_upack2](../ip/util_pack/util_upack2.md)
+- [xilinx/axi_adxcvr](../ip/xilinx/axi_adxcvr.md)
+- [xilinx/util_adxcvr](../ip/xilinx/util_adxcvr.md)
 
 - kcu105
-- axi_clkgen
-- axi_dmac
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- jesd204/axi_jesd204_rx
-- jesd204/axi_jesd204_tx
-- jesd204/jesd204_rx
-- jesd204/jesd204_tx
-- sysid_rom
-- util_dacfifo
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
-
-- zc706
-- axi_clkgen
-- axi_dmac
-- axi_hdmi_tx
-- axi_spdif_tx
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- jesd204/axi_jesd204_rx
-- jesd204/axi_jesd204_tx
-- jesd204/jesd204_rx
-- jesd204/jesd204_tx
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- xilinx/axi_adxcvr
-- xilinx/axi_dacfifo
-- xilinx/util_adxcvr
-
-- a10soc
-- axi_dmac
-- axi_sysid
-- intel/adi_jesd204
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [jesd204/ad_ip_jesd204_tpl_adc](../ip/jesd204/ad_ip_jesd204_tpl_adc.md)
+- [jesd204/ad_ip_jesd204_tpl_dac](../ip/jesd204/ad_ip_jesd204_tpl_dac.md)
+- [jesd204/axi_jesd204_rx](../ip/jesd204/axi_jesd204_rx.md)
+- [jesd204/axi_jesd204_tx](../ip/jesd204/axi_jesd204_tx.md)
+- [jesd204/jesd204_rx](../ip/jesd204/jesd204_rx.md)
+- [jesd204/jesd204_tx](../ip/jesd204/jesd204_tx.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_dacfifo](../ip/util_dacfifo.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [util_pack/util_upack2](../ip/util_pack/util_upack2.md)
+- [xilinx/axi_adxcvr](../ip/xilinx/axi_adxcvr.md)
+- [xilinx/util_adxcvr](../ip/xilinx/util_adxcvr.md)
 
 - a10gx
-- axi_dmac
-- axi_sysid
-- intel/adi_jesd204
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/ad_ip_jesd204_tpl_dac
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [intel/adi_jesd204](../ip/intel/adi_jesd204.md)
+- [jesd204/ad_ip_jesd204_tpl_adc](../ip/jesd204/ad_ip_jesd204_tpl_adc.md)
+- [jesd204/ad_ip_jesd204_tpl_dac](../ip/jesd204/ad_ip_jesd204_tpl_dac.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [util_pack/util_upack2](../ip/util_pack/util_upack2.md)
+
+- zc706
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [jesd204/ad_ip_jesd204_tpl_adc](../ip/jesd204/ad_ip_jesd204_tpl_adc.md)
+- [jesd204/ad_ip_jesd204_tpl_dac](../ip/jesd204/ad_ip_jesd204_tpl_dac.md)
+- [jesd204/axi_jesd204_rx](../ip/jesd204/axi_jesd204_rx.md)
+- [jesd204/axi_jesd204_tx](../ip/jesd204/axi_jesd204_tx.md)
+- [jesd204/jesd204_rx](../ip/jesd204/jesd204_rx.md)
+- [jesd204/jesd204_tx](../ip/jesd204/jesd204_tx.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [util_pack/util_upack2](../ip/util_pack/util_upack2.md)
+- [xilinx/axi_adxcvr](../ip/xilinx/axi_adxcvr.md)
+- [xilinx/axi_dacfifo](../ip/xilinx/axi_dacfifo.md)
+- [xilinx/util_adxcvr](../ip/xilinx/util_adxcvr.md)
+
+- a10soc
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [intel/adi_jesd204](../ip/intel/adi_jesd204.md)
+- [jesd204/ad_ip_jesd204_tpl_adc](../ip/jesd204/ad_ip_jesd204_tpl_adc.md)
+- [jesd204/ad_ip_jesd204_tpl_dac](../ip/jesd204/ad_ip_jesd204_tpl_dac.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [util_pack/util_upack2](../ip/util_pack/util_upack2.md)
 

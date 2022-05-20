@@ -1,4 +1,4 @@
-# PULSAR-ADC-PMDZ HDL Reference Design
+# PULSAR-ADC-PMDZ
 
 ## Supported FPGA Carriers
 
@@ -9,13 +9,13 @@
 ## Library Core Dependencies
 
 - coraz7s
-- axi_clkgen
-- axi_dmac
-- axi_pwm_gen
-- axi_sysid
-- spi_engine/axi_spi_engine
-- spi_engine/spi_engine_execution
-- spi_engine/spi_engine_interconnect
-- spi_engine/spi_engine_offload
-- sysid_rom
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_pwm_gen](../ip/axi_pwm_gen.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [spi_engine/axi_spi_engine](../ip/spi_engine/axi_spi_engine.md)
+- [spi_engine/spi_engine_execution](../ip/spi_engine/spi_engine_execution.md)
+- [spi_engine/spi_engine_interconnect](../ip/spi_engine/spi_engine_interconnect.md)
+- [spi_engine/spi_engine_offload](../ip/spi_engine/spi_engine_offload.md)
+- [sysid_rom](../ip/sysid_rom.md)
 

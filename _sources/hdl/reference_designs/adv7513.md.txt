@@ -1,4 +1,4 @@
-# ADV7513 HDL Reference Design
+# ADV7513
 
 ## Supported FPGA Carriers
 
@@ -9,6 +9,6 @@
 ## Library Core Dependencies
 
 - de10nano
-- axi_dmac
-- axi_hdmi_tx
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
 

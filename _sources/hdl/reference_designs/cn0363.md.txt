@@ -1,4 +1,4 @@
-# CN0363 HDL Reference Design
+# CN0363
 
 ## Supported FPGA Carriers
 
@@ -9,22 +9,22 @@
 ## Library Core Dependencies
 
 - zed
-- axi_clkgen
-- axi_dmac
-- axi_generic_adc
-- axi_hdmi_tx
-- axi_i2s_adi
-- axi_spdif_tx
-- axi_sysid
-- cn0363/cn0363_dma_sequencer
-- cn0363/cn0363_phase_data_sync
-- cordic_demod
-- spi_engine/axi_spi_engine
-- spi_engine/spi_engine_execution
-- spi_engine/spi_engine_interconnect
-- spi_engine/spi_engine_offload
-- sysid_rom
-- util_axis_resize
-- util_i2c_mixer
-- util_sigma_delta_spi
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_generic_adc](../ip/axi_generic_adc.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_i2s_adi](../ip/axi_i2s_adi.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [cn0363/cn0363_dma_sequencer](../ip/cn0363/cn0363_dma_sequencer.md)
+- [cn0363/cn0363_phase_data_sync](../ip/cn0363/cn0363_phase_data_sync.md)
+- [cordic_demod](../ip/cordic_demod.md)
+- [spi_engine/axi_spi_engine](../ip/spi_engine/axi_spi_engine.md)
+- [spi_engine/spi_engine_execution](../ip/spi_engine/spi_engine_execution.md)
+- [spi_engine/spi_engine_interconnect](../ip/spi_engine/spi_engine_interconnect.md)
+- [spi_engine/spi_engine_offload](../ip/spi_engine/spi_engine_offload.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_axis_resize](../ip/util_axis_resize.md)
+- [util_i2c_mixer](../ip/util_i2c_mixer.md)
+- [util_sigma_delta_spi](../ip/util_sigma_delta_spi.md)
 

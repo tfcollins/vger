@@ -1,36 +1,36 @@
-# FMCADC2 HDL Reference Design
+# FMCADC2
 
 ## Supported FPGA Carriers
 
-- vc707
 - zc706
+- vc707
 
 
 
 ## Library Core Dependencies
 
-- vc707
-- axi_dmac
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/axi_jesd204_rx
-- jesd204/jesd204_rx
-- sysid_rom
-- util_adcfifo
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
-
 - zc706
-- axi_clkgen
-- axi_dmac
-- axi_hdmi_tx
-- axi_spdif_tx
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/axi_jesd204_rx
-- jesd204/jesd204_rx
-- sysid_rom
-- xilinx/axi_adcfifo
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [jesd204/ad_ip_jesd204_tpl_adc](../ip/jesd204/ad_ip_jesd204_tpl_adc.md)
+- [jesd204/axi_jesd204_rx](../ip/jesd204/axi_jesd204_rx.md)
+- [jesd204/jesd204_rx](../ip/jesd204/jesd204_rx.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [xilinx/axi_adcfifo](../ip/xilinx/axi_adcfifo.md)
+- [xilinx/axi_adxcvr](../ip/xilinx/axi_adxcvr.md)
+- [xilinx/util_adxcvr](../ip/xilinx/util_adxcvr.md)
+
+- vc707
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [jesd204/ad_ip_jesd204_tpl_adc](../ip/jesd204/ad_ip_jesd204_tpl_adc.md)
+- [jesd204/axi_jesd204_rx](../ip/jesd204/axi_jesd204_rx.md)
+- [jesd204/jesd204_rx](../ip/jesd204/jesd204_rx.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_adcfifo](../ip/util_adcfifo.md)
+- [xilinx/axi_adxcvr](../ip/xilinx/axi_adxcvr.md)
+- [xilinx/util_adxcvr](../ip/xilinx/util_adxcvr.md)
 

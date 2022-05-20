@@ -1,4 +1,4 @@
-# ADRV9001 HDL Reference Design
+# ADRV9001
 
 ## Supported FPGA Carriers
 
@@ -12,44 +12,44 @@
 ## Library Core Dependencies
 
 - zcu102
-- axi_adrv9001
-- axi_dmac
-- axi_sysid
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
+- [axi_adrv9001](../ip/axi_adrv9001.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [util_pack/util_upack2](../ip/util_pack/util_upack2.md)
 
 - zed
-- axi_adrv9001
-- axi_clkgen
-- axi_dmac
-- axi_hdmi_tx
-- axi_i2s_adi
-- axi_spdif_tx
-- axi_sysid
-- sysid_rom
-- util_i2c_mixer
-- util_pack/util_cpack2
-- util_pack/util_upack2
+- [axi_adrv9001](../ip/axi_adrv9001.md)
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_i2s_adi](../ip/axi_i2s_adi.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_i2c_mixer](../ip/util_i2c_mixer.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [util_pack/util_upack2](../ip/util_pack/util_upack2.md)
 
 - zc706
-- axi_adrv9001
-- axi_clkgen
-- axi_dmac
-- axi_hdmi_tx
-- axi_spdif_tx
-- axi_sysid
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
+- [axi_adrv9001](../ip/axi_adrv9001.md)
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [util_pack/util_upack2](../ip/util_pack/util_upack2.md)
 
 - a10soc
-- axi_adrv9001
-- axi_dmac
-- axi_sysid
-- sysid_rom
-- util_pack/util_cpack2
-- util_pack/util_upack2
-- util_rfifo
-- util_wfifo
+- [axi_adrv9001](../ip/axi_adrv9001.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [util_pack/util_upack2](../ip/util_pack/util_upack2.md)
+- [util_rfifo](../ip/util_rfifo.md)
+- [util_wfifo](../ip/util_wfifo.md)
 

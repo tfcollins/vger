@@ -1,4 +1,4 @@
-# AD40XX-FMC HDL Reference Design
+# AD40XX-FMC
 
 ## Supported FPGA Carriers
 
@@ -9,17 +9,17 @@
 ## Library Core Dependencies
 
 - zed
-- axi_clkgen
-- axi_dmac
-- axi_hdmi_tx
-- axi_i2s_adi
-- axi_spdif_tx
-- axi_sysid
-- spi_engine/axi_spi_engine
-- spi_engine/spi_engine_execution
-- spi_engine/spi_engine_interconnect
-- spi_engine/spi_engine_offload
-- sysid_rom
-- util_i2c_mixer
-- util_pulse_gen
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_i2s_adi](../ip/axi_i2s_adi.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [spi_engine/axi_spi_engine](../ip/spi_engine/axi_spi_engine.md)
+- [spi_engine/spi_engine_execution](../ip/spi_engine/spi_engine_execution.md)
+- [spi_engine/spi_engine_interconnect](../ip/spi_engine/spi_engine_interconnect.md)
+- [spi_engine/spi_engine_offload](../ip/spi_engine/spi_engine_offload.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_i2c_mixer](../ip/util_i2c_mixer.md)
+- [util_pulse_gen](../ip/util_pulse_gen.md)
 

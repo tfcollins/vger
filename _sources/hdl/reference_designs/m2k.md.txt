@@ -1,4 +1,4 @@
-# M2K HDL Reference Design
+# M2K
 
 ## Supported FPGA Carriers
 
@@ -9,12 +9,12 @@
 ## Library Core Dependencies
 
 - standalone
-- axi_ad9963
-- axi_adc_decimate
-- axi_adc_trigger
-- axi_dac_interpolate
-- axi_dmac
-- axi_logic_analyzer
-- axi_rd_wr_combiner
-- util_var_fifo
+- [axi_ad9963](../ip/axi_ad9963.md)
+- [axi_adc_decimate](../ip/axi_adc_decimate.md)
+- [axi_adc_trigger](../ip/axi_adc_trigger.md)
+- [axi_dac_interpolate](../ip/axi_dac_interpolate.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_logic_analyzer](../ip/axi_logic_analyzer.md)
+- [axi_rd_wr_combiner](../ip/axi_rd_wr_combiner.md)
+- [util_var_fifo](../ip/util_var_fifo.md)
 

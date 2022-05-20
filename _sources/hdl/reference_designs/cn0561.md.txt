@@ -1,0 +1,37 @@
+# CN0561
+
+## Supported FPGA Carriers
+
+- zed
+- coraz7s
+
+
+
+## Library Core Dependencies
+
+- zed
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_i2s_adi](../ip/axi_i2s_adi.md)
+- [axi_pwm_gen](../ip/axi_pwm_gen.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [spi_engine/axi_spi_engine](../ip/spi_engine/axi_spi_engine.md)
+- [spi_engine/spi_engine_execution](../ip/spi_engine/spi_engine_execution.md)
+- [spi_engine/spi_engine_interconnect](../ip/spi_engine/spi_engine_interconnect.md)
+- [spi_engine/spi_engine_offload](../ip/spi_engine/spi_engine_offload.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_i2c_mixer](../ip/util_i2c_mixer.md)
+
+- coraz7s
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_pwm_gen](../ip/axi_pwm_gen.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [spi_engine/axi_spi_engine](../ip/spi_engine/axi_spi_engine.md)
+- [spi_engine/spi_engine_execution](../ip/spi_engine/spi_engine_execution.md)
+- [spi_engine/spi_engine_interconnect](../ip/spi_engine/spi_engine_interconnect.md)
+- [spi_engine/spi_engine_offload](../ip/spi_engine/spi_engine_offload.md)
+- [sysid_rom](../ip/sysid_rom.md)
+

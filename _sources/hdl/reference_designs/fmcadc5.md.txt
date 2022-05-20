@@ -1,4 +1,4 @@
-# FMCADC5 HDL Reference Design
+# FMCADC5
 
 ## Supported FPGA Carriers
 
@@ -9,15 +9,15 @@
 ## Library Core Dependencies
 
 - vc707
-- axi_ad9625
-- axi_dmac
-- axi_fmcadc5_sync
-- axi_sysid
-- jesd204/axi_jesd204_rx
-- jesd204/jesd204_rx
-- sysid_rom
-- util_adcfifo
-- util_mfifo
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
+- [axi_ad9625](../ip/axi_ad9625.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_fmcadc5_sync](../ip/axi_fmcadc5_sync.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [jesd204/axi_jesd204_rx](../ip/jesd204/axi_jesd204_rx.md)
+- [jesd204/jesd204_rx](../ip/jesd204/jesd204_rx.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_adcfifo](../ip/util_adcfifo.md)
+- [util_mfifo](../ip/util_mfifo.md)
+- [xilinx/axi_adxcvr](../ip/xilinx/axi_adxcvr.md)
+- [xilinx/util_adxcvr](../ip/xilinx/util_adxcvr.md)
 

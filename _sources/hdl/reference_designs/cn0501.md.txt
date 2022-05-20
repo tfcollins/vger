@@ -1,4 +1,4 @@
-# CN0501 HDL Reference Design
+# CN0501
 
 ## Supported FPGA Carriers
 
@@ -9,9 +9,9 @@
 ## Library Core Dependencies
 
 - coraz7s
-- axi_dmac
-- axi_generic_adc
-- axi_sysid
-- sysid_rom
-- util_pack/util_cpack2
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_generic_adc](../ip/axi_generic_adc.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
 

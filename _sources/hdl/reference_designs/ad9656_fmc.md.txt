@@ -1,4 +1,4 @@
-# AD9656-FMC HDL Reference Design
+# AD9656-FMC
 
 ## Supported FPGA Carriers
 
@@ -9,13 +9,13 @@
 ## Library Core Dependencies
 
 - zcu102
-- axi_dmac
-- axi_sysid
-- jesd204/ad_ip_jesd204_tpl_adc
-- jesd204/axi_jesd204_rx
-- jesd204/jesd204_rx
-- sysid_rom
-- util_pack/util_cpack2
-- xilinx/axi_adxcvr
-- xilinx/util_adxcvr
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [jesd204/ad_ip_jesd204_tpl_adc](../ip/jesd204/ad_ip_jesd204_tpl_adc.md)
+- [jesd204/axi_jesd204_rx](../ip/jesd204/axi_jesd204_rx.md)
+- [jesd204/jesd204_rx](../ip/jesd204/jesd204_rx.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+- [xilinx/axi_adxcvr](../ip/xilinx/axi_adxcvr.md)
+- [xilinx/util_adxcvr](../ip/xilinx/util_adxcvr.md)
 

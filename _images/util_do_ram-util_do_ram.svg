@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Symbolator http://kevinpt.github.io/symbolator -->
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xml:space="preserve"
+width="858" height="463" viewBox="-230 -45 858.0 463.5" version="1.1">
+<style type="text/css">
+<![CDATA[
+.fnt1 {fill:#000000;
+    font-family:Helvetica; font-size:12pt; font-weight:normal; font-style:normal;}
+.fnt2 {fill:#000000;
+    font-family:Helvetica; font-size:14pt; font-weight:bold; font-style:normal;}
+.label {fill:#000;
+  text-anchor:middle;
+  font-size:16pt; font-weight:bold; font-family:Sans;}
+.link {fill: #0D47A1;}
+.link:hover {fill: #0D47A1; text-decoration:underline;}
+.link:visited {fill: #4A148C;}
+]]>
+</style>
+<defs>
+<marker id="clock" markerWidth="8.0" markerHeight="15.0" viewBox="0 0 8.0 15.0" refX="0.5" refY="7.5" orient="auto" markerUnits="userSpaceOnUse">
+<g transform="translate(0.5,7.5)"><path d="M 0 -7 L 0 7 L 7 0 z" stroke="#000000" fill="#FFFFFF" stroke-width="1"/>
+</g>
+</marker>
+</defs>
+<rect x="-230" y="-45" width="100%" height="100%" fill="white"/><g transform="translate(0,0)">
+<rect x="0" y="-15.0" width="400" height="70.0" stroke="#646464" fill="#C8C8C8" stroke-width="1"/>
+<g transform="translate(0,0)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">SRC_DATA_WIDTH</text>
+</g>
+<g transform="translate(0,20)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">DST_DATA_WIDTH</text>
+</g>
+<g transform="translate(0,40)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">LENGTH_WIDTH</text>
+</g>
+</g>
+<rect x="1.0" y="-14.0" width="398.0" height="68.0" stroke="#646464" fill="none" stroke-width="3"/>
+<text class="fnt2" x="200.0" y="-24.0" text-anchor="middle" dy="-2.0">util_do_ram</text>
+<g transform="translate(0,78.0)">
+<rect x="0" y="-15.0" width="400" height="350.0" stroke="#000000" fill="#C5DBFC" stroke-width="1"/>
+<g transform="translate(0,0)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">wr_request_enable</text>
+</g>
+<g transform="translate(0,20)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">wr_request_valid</text>
+</g>
+<g transform="translate(0,40)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">wr_request_length</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[LENGTH_WIDTH-1:0]</tspan></text>
+</g>
+<g transform="translate(0,60)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">rd_request_enable</text>
+</g>
+<g transform="translate(0,80)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">rd_request_valid</text>
+</g>
+<g transform="translate(0,100)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">rd_request_length</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[LENGTH_WIDTH-1:0]</tspan></text>
+</g>
+<g transform="translate(0,120)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1" marker-end="url(#clock)"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_axis_aclk</text>
+</g>
+<g transform="translate(0,140)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_axis_aresetn</text>
+</g>
+<g transform="translate(0,160)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_axis_valid</text>
+</g>
+<g transform="translate(0,180)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_axis_data</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[SRC_DATA_WIDTH-1:0]</tspan></text>
+</g>
+<g transform="translate(0,200)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_axis_strb</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[SRC_DATA_WIDTH/8-1:0]</tspan></text>
+</g>
+<g transform="translate(0,220)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_axis_keep</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[SRC_DATA_WIDTH/8-1:0]</tspan></text>
+</g>
+<g transform="translate(0,240)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_axis_user</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[0:0]</tspan></text>
+</g>
+<g transform="translate(0,260)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_axis_last</text>
+</g>
+<g transform="translate(0,280)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1" marker-end="url(#clock)"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axis_aclk</text>
+</g>
+<g transform="translate(0,300)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axis_aresetn</text>
+</g>
+<g transform="translate(0,320)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axis_ready</text>
+</g>
+<g transform="translate(400,0)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">wr_request_ready</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696">reg</text>
+</g>
+<g transform="translate(400,20)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">1</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696">reg</text>
+</g>
+<g transform="translate(400,40)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">b0</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696">reg</text>
+</g>
+<g transform="translate(400,60)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">wr_response_measured_length</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696">reg <tspan fill="#039BE5">[LENGTH_WIDTH-1:0]</tspan></text>
+</g>
+<g transform="translate(400,80)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">h0</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696">reg <tspan fill="#039BE5">[LENGTH_WIDTH-1:0]</tspan></text>
+</g>
+<g transform="translate(400,100)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">wr_response_eot</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696">reg</text>
+</g>
+<g transform="translate(400,120)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">rd_request_ready</text>
+</g>
+<g transform="translate(400,140)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">rd_response_eot</text>
+</g>
+<g transform="translate(400,160)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_axis_ready</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696">reg</text>
+</g>
+<g transform="translate(400,180)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axis_valid</text>
+</g>
+<g transform="translate(400,200)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axis_data</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[DST_DATA_WIDTH-1:0]</tspan></text>
+</g>
+<g transform="translate(400,220)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axis_strb</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[DST_DATA_WIDTH/8-1:0]</tspan></text>
+</g>
+<g transform="translate(400,240)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axis_keep</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[DST_DATA_WIDTH/8-1:0]</tspan></text>
+</g>
+<g transform="translate(400,260)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axis_user</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[0:0]</tspan></text>
+</g>
+<g transform="translate(400,280)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axis_last</text>
+</g>
+</g>
+<rect x="1.0" y="64.0" width="398.0" height="348.0" stroke="#000000" fill="none" stroke-width="3"/>
+</svg>

@@ -1,4 +1,4 @@
-# CN0506-RGMII HDL Reference Design
+# CN0506-RGMII
 
 ## Supported FPGA Carriers
 
@@ -11,24 +11,24 @@
 ## Library Core Dependencies
 
 - zcu102
-- axi_sysid
-- sysid_rom
+- [axi_sysid](../ip/axi_sysid.md)
+- [sysid_rom](../ip/sysid_rom.md)
 
 - zed
-- axi_clkgen
-- axi_dmac
-- axi_hdmi_tx
-- axi_i2s_adi
-- axi_spdif_tx
-- axi_sysid
-- sysid_rom
-- util_i2c_mixer
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_i2s_adi](../ip/axi_i2s_adi.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_i2c_mixer](../ip/util_i2c_mixer.md)
 
 - zc706
-- axi_clkgen
-- axi_dmac
-- axi_hdmi_tx
-- axi_spdif_tx
-- axi_sysid
-- sysid_rom
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [sysid_rom](../ip/sysid_rom.md)
 

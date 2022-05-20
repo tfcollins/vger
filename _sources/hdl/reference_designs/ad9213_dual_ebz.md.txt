@@ -1,4 +1,4 @@
-# AD9213-DUAL-EBZ HDL Reference Design
+# AD9213-DUAL-EBZ
 
 ## Supported FPGA Carriers
 
@@ -9,7 +9,7 @@
 ## Library Core Dependencies
 
 - s10soc
-- axi_dmac
-- intel/adi_jesd204
-- jesd204/ad_ip_jesd204_tpl_adc
+- [axi_dmac](../ip/axi_dmac.md)
+- [intel/adi_jesd204](../ip/intel/adi_jesd204.md)
+- [jesd204/ad_ip_jesd204_tpl_adc](../ip/jesd204/ad_ip_jesd204_tpl_adc.md)
 

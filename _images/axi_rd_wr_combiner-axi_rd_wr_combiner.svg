@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Symbolator http://kevinpt.github.io/symbolator -->
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xml:space="preserve"
+width="456" height="645" viewBox="-78 -45 456.0 645.5" version="1.1">
+<style type="text/css">
+<![CDATA[
+.fnt1 {fill:#000000;
+    font-family:Helvetica; font-size:12pt; font-weight:normal; font-style:normal;}
+.fnt2 {fill:#000000;
+    font-family:Helvetica; font-size:14pt; font-weight:bold; font-style:normal;}
+.label {fill:#000;
+  text-anchor:middle;
+  font-size:16pt; font-weight:bold; font-family:Sans;}
+.link {fill: #0D47A1;}
+.link:hover {fill: #0D47A1; text-decoration:underline;}
+.link:visited {fill: #4A148C;}
+]]>
+</style>
+<defs>
+<marker id="clock" markerWidth="8.0" markerHeight="15.0" viewBox="0 0 8.0 15.0" refX="0.5" refY="7.5" orient="auto" markerUnits="userSpaceOnUse">
+<g transform="translate(0.5,7.5)"><path d="M 0 -7 L 0 7 L 7 0 z" stroke="#000000" fill="#FFFFFF" stroke-width="1"/>
+</g>
+</marker>
+</defs>
+<rect x="-78" y="-45" width="100%" height="100%" fill="white"/><g transform="translate(0,0)">
+<rect x="0" y="-15.0" width="300" height="610.0" stroke="#000000" fill="#C5DBFC" stroke-width="1"/>
+<g transform="translate(0,0)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1" marker-end="url(#clock)"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">clk</text>
+</g>
+<g transform="translate(0,20)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axi_awready</text>
+</g>
+<g transform="translate(0,40)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axi_wready</text>
+</g>
+<g transform="translate(0,60)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axi_bvalid</text>
+</g>
+<g transform="translate(0,80)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axi_bresp</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[1:0]</tspan></text>
+</g>
+<g transform="translate(0,100)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axi_arready</text>
+</g>
+<g transform="translate(0,120)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axi_rvalid</text>
+</g>
+<g transform="translate(0,140)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axi_rresp</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[1:0]</tspan></text>
+</g>
+<g transform="translate(0,160)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axi_rdata</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[63:0]</tspan></text>
+</g>
+<g transform="translate(0,180)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">m_axi_rlast</text>
+</g>
+<g transform="translate(0,200)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_awaddr</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[31:0]</tspan></text>
+</g>
+<g transform="translate(0,220)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_awlen</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[3:0]</tspan></text>
+</g>
+<g transform="translate(0,240)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_awsize</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[2:0]</tspan></text>
+</g>
+<g transform="translate(0,260)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_awburst</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[1:0]</tspan></text>
+</g>
+<g transform="translate(0,280)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_awprot</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[2:0]</tspan></text>
+</g>
+<g transform="translate(0,300)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_awcache</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[3:0]</tspan></text>
+</g>
+<g transform="translate(0,320)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_awvalid</text>
+</g>
+<g transform="translate(0,340)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_wdata</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[63:0]</tspan></text>
+</g>
+<g transform="translate(0,360)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_wstrb</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[7:0]</tspan></text>
+</g>
+<g transform="translate(0,380)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_wvalid</text>
+</g>
+<g transform="translate(0,400)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_wlast</text>
+</g>
+<g transform="translate(0,420)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_wr_axi_bready</text>
+</g>
+<g transform="translate(0,440)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_rd_axi_arvalid</text>
+</g>
+<g transform="translate(0,460)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_rd_axi_araddr</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[31:0]</tspan></text>
+</g>
+<g transform="translate(0,480)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_rd_axi_arlen</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[3:0]</tspan></text>
+</g>
+<g transform="translate(0,500)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_rd_axi_arsize</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[2:0]</tspan></text>
+</g>
+<g transform="translate(0,520)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_rd_axi_arburst</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[1:0]</tspan></text>
+</g>
+<g transform="translate(0,540)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_rd_axi_arcache</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[3:0]</tspan></text>
+</g>
+<g transform="translate(0,560)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_rd_axi_arprot</text>
+<text class="fnt1" x="-30" y="0" text-anchor="end" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[2:0]</tspan></text>
+</g>
+<g transform="translate(0,580)">
+<line x1="-20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="10" y="0" text-anchor="normal" dy="3.5">s_rd_axi_rready</text>
+</g>
+<g transform="translate(300,0)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_awaddr</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[31:0]</tspan></text>
+</g>
+<g transform="translate(300,20)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_awlen</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[3:0]</tspan></text>
+</g>
+<g transform="translate(300,40)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_awsize</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[2:0]</tspan></text>
+</g>
+<g transform="translate(300,60)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_awburst</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[1:0]</tspan></text>
+</g>
+<g transform="translate(300,80)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_awprot</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[2:0]</tspan></text>
+</g>
+<g transform="translate(300,100)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_awcache</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[3:0]</tspan></text>
+</g>
+<g transform="translate(300,120)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_awvalid</text>
+</g>
+<g transform="translate(300,140)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_wdata</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[63:0]</tspan></text>
+</g>
+<g transform="translate(300,160)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_wstrb</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[7:0]</tspan></text>
+</g>
+<g transform="translate(300,180)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_wvalid</text>
+</g>
+<g transform="translate(300,200)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_wlast</text>
+</g>
+<g transform="translate(300,220)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_bready</text>
+</g>
+<g transform="translate(300,240)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_arvalid</text>
+</g>
+<g transform="translate(300,260)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_araddr</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[31:0]</tspan></text>
+</g>
+<g transform="translate(300,280)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_arlen</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[3:0]</tspan></text>
+</g>
+<g transform="translate(300,300)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_arsize</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[2:0]</tspan></text>
+</g>
+<g transform="translate(300,320)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_arburst</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[1:0]</tspan></text>
+</g>
+<g transform="translate(300,340)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_arcache</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[3:0]</tspan></text>
+</g>
+<g transform="translate(300,360)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_arprot</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[2:0]</tspan></text>
+</g>
+<g transform="translate(300,380)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">m_axi_rready</text>
+</g>
+<g transform="translate(300,400)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_wr_axi_awready</text>
+</g>
+<g transform="translate(300,420)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_wr_axi_wready</text>
+</g>
+<g transform="translate(300,440)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_wr_axi_bvalid</text>
+</g>
+<g transform="translate(300,460)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_wr_axi_bresp</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[1:0]</tspan></text>
+</g>
+<g transform="translate(300,480)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_rd_axi_arready</text>
+</g>
+<g transform="translate(300,500)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_rd_axi_rvalid</text>
+</g>
+<g transform="translate(300,520)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_rd_axi_rresp</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[1:0]</tspan></text>
+</g>
+<g transform="translate(300,540)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_rd_axi_rdata</text>
+<text class="fnt1" x="30" y="0" text-anchor="normal" dy="3.5" style="fill:#969696"> <tspan fill="#039BE5">[63:0]</tspan></text>
+</g>
+<g transform="translate(300,560)">
+<line x1="20" y1="0" x2="0" y2="0" stroke="#000000" fill="none" stroke-width="1"/>
+<text class="fnt1" x="-10" y="0" text-anchor="end" dy="3.5">s_rd_axi_rlast</text>
+</g>
+</g>
+<rect x="1.0" y="-14.0" width="298.0" height="608.0" stroke="#000000" fill="none" stroke-width="3"/>
+<text class="fnt2" x="150.0" y="-24.0" text-anchor="middle" dy="-2.0">axi_rd_wr_combiner</text>
+</svg>

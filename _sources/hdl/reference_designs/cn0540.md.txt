@@ -1,4 +1,4 @@
-# CN0540 HDL Reference Design
+# CN0540
 
 ## Supported FPGA Carriers
 
@@ -10,20 +10,20 @@
 ## Library Core Dependencies
 
 - coraz7s
-- axi_clkgen
-- axi_dmac
-- axi_sysid
-- spi_engine/axi_spi_engine
-- spi_engine/spi_engine_execution
-- spi_engine/spi_engine_interconnect
-- spi_engine/spi_engine_offload
-- sysid_rom
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [spi_engine/axi_spi_engine](../ip/spi_engine/axi_spi_engine.md)
+- [spi_engine/spi_engine_execution](../ip/spi_engine/spi_engine_execution.md)
+- [spi_engine/spi_engine_interconnect](../ip/spi_engine/spi_engine_interconnect.md)
+- [spi_engine/spi_engine_offload](../ip/spi_engine/spi_engine_offload.md)
+- [sysid_rom](../ip/sysid_rom.md)
 
 - de10nano
-- axi_dmac
-- axi_hdmi_tx
-- spi_engine/axi_spi_engine
-- spi_engine/spi_engine_execution
-- spi_engine/spi_engine_interconnect
-- spi_engine/spi_engine_offload
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [spi_engine/axi_spi_engine](../ip/spi_engine/axi_spi_engine.md)
+- [spi_engine/spi_engine_execution](../ip/spi_engine/spi_engine_execution.md)
+- [spi_engine/spi_engine_interconnect](../ip/spi_engine/spi_engine_interconnect.md)
+- [spi_engine/spi_engine_offload](../ip/spi_engine/spi_engine_offload.md)
 

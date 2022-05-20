@@ -1,0 +1,22 @@
+# ADAQ8092-FMC
+
+## Supported FPGA Carriers
+
+- zed
+
+
+
+## Library Core Dependencies
+
+- zed
+- [axi_adaq8092](../ip/axi_adaq8092.md)
+- [axi_clkgen](../ip/axi_clkgen.md)
+- [axi_dmac](../ip/axi_dmac.md)
+- [axi_hdmi_tx](../ip/axi_hdmi_tx.md)
+- [axi_i2s_adi](../ip/axi_i2s_adi.md)
+- [axi_spdif_tx](../ip/axi_spdif_tx.md)
+- [axi_sysid](../ip/axi_sysid.md)
+- [sysid_rom](../ip/sysid_rom.md)
+- [util_i2c_mixer](../ip/util_i2c_mixer.md)
+- [util_pack/util_cpack2](../ip/util_pack/util_cpack2.md)
+

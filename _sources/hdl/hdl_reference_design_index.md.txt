@@ -1,6 +1,10 @@
-# HDL Reference Designs
+# Reference Designs
 
 ```{toctree}
+---
+caption: Reference Designs
+maxdepth: 1
+---
 reference_designs/ad40xx_fmc
 reference_designs/ad4630_fmc
 reference_designs/ad469x_fmc
@@ -22,11 +26,13 @@ reference_designs/ad9265_fmc
 reference_designs/ad9434_fmc
 reference_designs/ad9467_fmc
 reference_designs/ad9656_fmc
+reference_designs/ad9695_fmc
 reference_designs/ad9739a_fmc
 reference_designs/ad9783_ebz
 reference_designs/ad_fmclidar1_ebz
 reference_designs/ad_quadmxfe1_ebz
 reference_designs/adaq7980_sdz
+reference_designs/adaq8092_fmc
 reference_designs/adrv9001
 reference_designs/adrv9009
 reference_designs/adrv9009zu11eg
@@ -42,6 +48,8 @@ reference_designs/cn0506_mii
 reference_designs/cn0506_rgmii
 reference_designs/cn0506_rmii
 reference_designs/cn0540
+reference_designs/cn0561
+reference_designs/cn0577
 reference_designs/dac_fmc_ebz
 reference_designs/daq2
 reference_designs/daq3
