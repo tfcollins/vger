@@ -96,10 +96,11 @@ no_os/no_os_project_index
 ```
 
 ```{toctree}
-:caption: HDL IP
+:caption: HDL
 :hidden:
 
 hdl/hdl_reference_design_index
+hdl/hdl_ip_core_index
 ```
 
 ```{toctree}
