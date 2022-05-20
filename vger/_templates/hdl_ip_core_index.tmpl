@@ -1,0 +1,13 @@
+# IP Cores
+
+```{toctree}
+---
+caption: IP Cores
+maxdepth: 1
+---
+{% block content -%}
+{% for ip in ips -%}
+ip/{{ ip }}
+{% endfor %}
+{%- endblock -%}
+```

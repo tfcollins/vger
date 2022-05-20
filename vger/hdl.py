@@ -1,21 +1,24 @@
 """Parser and doc page generator tools for HDL repo"""
 from .common import core
+from .hdl_ip import hdl_ip
 import glob
 import os
 import json
 
 
-class hdl(core):
+class hdl(core, hdl_ip):
     """Parser and doc page generator tools for HDL repo"""
 
     def __init__(
         self,
-        hdl_repo_dir="hdl",
+        hdl_repo_dir=None,
         repo_url="https://github.com/analogdevicesinc/hdl.git",
         branch="master",
         clone=False,
-        hdl_doc_folder=os.path.join("docs","source","hdl"),
+        hdl_doc_folder=os.path.join(os.getcwd(),"docs","source","hdl"),
     ):
+        if not hdl_repo_dir:
+            hdl_repo_dir = os.path.join(os.getcwd(), "hdl")
         self.hdl_repo_dir = hdl_repo_dir
         self.repo_url = repo_url
         self.branch = branch

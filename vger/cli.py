@@ -29,8 +29,15 @@ def cli(ctx):
     default=None,
     help="Path to HDL documentation folder within Sphinx project",
 )
+@click.option(
+    "--generate-ip-core-pages",
+    "-p",
+    is_flag=True,
+    default=False,
+    help="Generation IP core pages (requires Vivado)",
+)
 @click.pass_context
-def hdl(ctx, clone, hdl_doc_folder):
+def hdl(ctx, clone, hdl_doc_folder,generate_ip_core_pages):
     """Clone, parse, and generate documentation for HDL codebase.
 
     \b
@@ -38,6 +45,8 @@ def hdl(ctx, clone, hdl_doc_folder):
     ho = hdlv(clone=clone)
     out = ho.parse_hdl_repo()
     ho.generate_reference_design_pages(out)
+    if generate_ip_core_pages:
+        ho.generate_ip_pages()
 
 
 @cli.command()

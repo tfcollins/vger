@@ -1,5 +1,5 @@
 {% block content -%}
-# {{ project }} HDL Reference Design
+# {{ project }}
 
 ## Supported FPGA Carriers
 
@@ -13,7 +13,7 @@
 {% for carrier in platform -%}
  - {{carrier}}
 {% for core in platform[carrier]['dependent_cores'] -%}
-     - {{core}}
+     - [{{core}}](../ip/{{core}}.md)
 {% endfor %}
 {% endfor %}
 

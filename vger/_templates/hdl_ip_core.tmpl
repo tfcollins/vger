@@ -1,0 +1,32 @@
+{% block content -%}
+# {{ ip['name'] }}
+
+<center>
+
+![{{ip['name']}}]({{ ip['name'] }}-{{ip['name']}}.svg)
+
+</center>
+
+## Parameters
+
+| Parameter | Default Value | Description |
+| --------- | ------------- | ----------- |
+{% for param in ip['parameters'] -%}
+| {{param['name']}} | {{ param['d_value'] }} | {{ param['description'] }} |
+{% endfor %}
+
+## Buses
+
+{% for bus in ip['buses'] %}
+### {{ bus['name'] }}
+| Logical | Physical | Type |
+| ------- | -------- | ---- |
+{% for port in bus['port_maps'] -%}
+| {{ port['logical'] }} | {{ port['physical'] }} | {{ bus['type'] }} |
+{% endfor %}
+
+{% endfor %}
+
+## Registers
+
+{%- endblock -%}
